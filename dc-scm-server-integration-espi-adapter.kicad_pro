@@ -510,7 +510,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "dc-scm-server-integration-espi-adapter-hw.kicad_pro",
+    "filename": "dc-scm-server-integration-espi-adapter.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -850,18 +850,42 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "dc-scm-server-integration-espi-adapter-hw.kicad_sch",
+        "filename": "dc-scm-server-integration-espi-adapter.kicad_sch",
         "name": "Root",
         "uuid": "df391740-647e-4ab6-9dcd-d61184d66fe9"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1,J14,J17,#PWR22,#PWR29,#PWR43,#PWR51",
     "variants": []
   },
   "sheets": [
     [
       "df391740-647e-4ab6-9dcd-d61184d66fe9",
       "Root"
+    ],
+    [
+      "dad11b40-64da-40df-af81-feff62248020",
+      "DC-SCM Interposer connector"
+    ],
+    [
+      "bc6e661a-ca2f-49c5-87e5-104abcecc786",
+      "MEC1723"
+    ],
+    [
+      "1d07191d-71e0-43c8-9a4f-6404f7e36093",
+      "Power"
+    ],
+    [
+      "870b0b62-f962-4a87-8d30-5a8522c5db60",
+      "Flash"
+    ],
+    [
+      "76679e57-0420-4874-b75d-368e938745be",
+      "Port80 LEDs"
+    ],
+    [
+      "1d8da698-0d26-4a54-ae2a-b123e41282d5",
+      "Connectors"
     ]
   ],
   "text_variables": {},
