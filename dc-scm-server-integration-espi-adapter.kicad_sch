@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "df391740-647e-4ab6-9dcd-d61184d66fe9")
+	(paper "A4")
+	(title_block
+		(title "DC-SCM Server Integration eSPI Adapter HW")
+		(date "2026-08-17")
+		(rev "1.0.0")
+		(company "Antmicro Ltd")
+		(comment 1 "www.antmicro.com")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
