@@ -1,0 +1,189 @@
+(kicad_wks
+    (version 20231118)
+    (generator "pl_editor")
+    (generator_version "10.0")
+    (setup
+        (textsize 1.524 1.524)
+        (linewidth 0.15)
+        (textlinewidth 0.15)
+        (left_margin 10)
+        (right_margin 10)
+        (top_margin 10)
+        (bottom_margin 10)
+    )
+    (rect
+        (name "")
+        (start 129.989 21.4882)
+        (end 1.981 2.0022)
+        (comment "rect around the title block")
+    )
+    (rect
+        (name "")
+        (start 0 0 ltcorner)
+        (end 0 0)
+        (repeat 2)
+        (incrx 2)
+        (incry 2)
+    )
+    (line
+        (name "")
+        (start 50 2 ltcorner)
+        (end 50 0 ltcorner)
+        (repeat 30)
+        (incrx 50)
+    )
+    (tbtext "1"
+        (name "")
+        (pos 25 1 ltcorner)
+        (font
+            (size 1.3 1.3)
+        )
+        (repeat 100)
+        (incrx 50)
+    )
+    (line
+        (name "")
+        (start 50 2 lbcorner)
+        (end 50 0 lbcorner)
+        (repeat 30)
+        (incrx 50)
+    )
+    (tbtext "1"
+        (name "")
+        (pos 25 1 lbcorner)
+        (font
+            (size 1.3 1.3)
+        )
+        (repeat 100)
+        (incrx 50)
+    )
+    (line
+        (name "")
+        (start 0 50 ltcorner)
+        (end 2 50 ltcorner)
+        (repeat 30)
+        (incry 50)
+    )
+    (tbtext "A"
+        (name "")
+        (pos 1 25 ltcorner)
+        (font
+            (size 1.3 1.3)
+        )
+        (justify center)
+        (repeat 100)
+        (incry 50)
+    )
+    (line
+        (name "")
+        (start 0 50 rtcorner)
+        (end 2 50 rtcorner)
+        (repeat 30)
+        (incry 50)
+    )
+    (tbtext "A"
+        (name "")
+        (pos 1 25 rtcorner)
+        (font
+            (size 1.3 1.3)
+        )
+        (justify center)
+        (repeat 100)
+        (incry 50)
+    )
+    (tbtext "Date: ${ISSUE_DATE}"
+        (name "")
+        (pos 23.876 3.683)
+        (font
+            (face "Geist Mono")
+        )
+    )
+    (line
+        (name "")
+        (start 82.931 5.461)
+        (end 2.032 5.461)
+    )
+    (tbtext "${KICAD_VERSION}"
+        (name "")
+        (pos 81.661 3.683)
+        (font
+            (face "Geist Mono")
+        )
+        (comment "Kicad version")
+    )
+    (line
+        (name "")
+        (start 82.931 12.446)
+        (end 2.032 12.446)
+    )
+    (tbtext "Rev: ${REVISION}"
+        (name "")
+        (pos 81.661 7.239)
+        (font
+            (face "Geist Mono")
+        )
+    )
+    (tbtext "Id: ${#}/${##}"
+        (name "")
+        (pos 44.704 3.683)
+        (font
+            (face "Geist Mono")
+        )
+        (comment "Sheet id")
+    )
+    (tbtext "Title: ${TITLE}"
+        (name "")
+        (pos 129.286 19.939)
+        (font
+            (face "Geist Mono")
+            (size 2.032 2.032) bold)
+        (justify top)
+    )
+    (tbtext "File: ${FILENAME}"
+        (name "")
+        (pos 81.661 10.668)
+        (font
+            (face "Geist Mono")
+        )
+    )
+    (tbtext "Sheet: ${SHEETPATH}"
+        (name "")
+        (pos 81.661 14.224)
+        (font
+            (face "Geist Mono")
+        )
+    )
+    (tbtext "${COMPANY}"
+        (name "")
+        (pos 129.286 15.113)
+        (font
+            (face "Geist Mono") bold)
+        (justify top)
+        (comment "Company name")
+    )
+    (line
+        (name "")
+        (start 82.931 16.002)
+        (end 82.931 2.032)
+    )
+    (line
+        (name "")
+        (start 129.989 16.0022)
+        (end 2.032 16.0022)
+    )
+    (line
+        (name "")
+        (start 25.146 5.461)
+        (end 25.146 2.032)
+    )
+    (line
+        (name "")
+        (start 82.931 9.017)
+        (end 2.032 9.017)
+    )
+    (line
+        (name "")
+        (start 45.974 5.461)
+        (end 45.974 2.032)
+    )
+)
