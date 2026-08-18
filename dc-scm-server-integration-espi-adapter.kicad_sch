@@ -306,6 +306,36 @@
 		)
 		(uuid "60fb924d-0092-4f9d-b485-483ef98288e6")
 	)
+	(bus
+		(pts
+			(xy 179.07 90.17) (xy 215.9 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35286369-beee-443d-b9ff-e0c18f200db9")
+	)
+	(bus
+		(pts
+			(xy 165.1 116.84) (xy 165.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753bc661-dfd9-4f17-ad4d-511a76b16331")
+	)
+	(bus
+		(pts
+			(xy 69.85 90.17) (xy 118.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c74aef-7758-4fc2-b058-081dc5e30288")
+	)
 	(symbol
 		(lib_id "Antmicro Symbols:antmicro_logo")
 		(at 250.19 154.94 0)
@@ -623,7 +653,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -633,7 +662,7 @@
 		)
 		(uuid "1d8da698-0d26-4a54-ae2a-b123e41282d5")
 		(property "Sheetname" "Connectors"
-			(at 152.4 140.2584 0)
+			(at 152.146 140.208 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -652,6 +681,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "EC_JTAG{JTAG}" bidirectional
+			(at 165.1 140.97 90)
+			(uuid "d1ca4d75-51ca-40a8-a893-0bbb9adee400")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EC_UART{UART}" bidirectional
+			(at 171.45 140.97 90)
+			(uuid "3b297e66-3259-436b-924c-155510f15e71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -802,6 +851,36 @@
 				(justify left top)
 			)
 		)
+		(pin "EC_ESPI{eSPI}" bidirectional
+			(at 118.11 90.17 180)
+			(uuid "a53bf5da-bd08-4eeb-9533-6f32956394ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EC_JTAG{JTAG}" bidirectional
+			(at 165.1 116.84 270)
+			(uuid "93b411cc-ee97-45dc-a152-84857d42f477")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EC_QSPI{QSPI}" bidirectional
+			(at 179.07 90.17 0)
+			(uuid "bf5ed60a-8011-43ce-a2ed-c57e2c8ad946")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9"
@@ -846,6 +925,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DC_SCM_12V_AUX" input
+			(at 69.85 86.36 0)
+			(uuid "9cec5e29-3150-40cd-a874-fd5cb40ca21f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EC_ESPI{eSPI}" bidirectional
+			(at 69.85 90.17 0)
+			(uuid "9b84fd78-721e-4565-87d3-5d889cbf39ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
