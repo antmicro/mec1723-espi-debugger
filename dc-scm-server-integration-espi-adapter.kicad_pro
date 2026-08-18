@@ -533,13 +533,48 @@
         "via_diameter": 0.55,
         "via_drill": 0.2,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "50Ohm-se",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(35, 135, 137)",
+        "tuning_profile": "",
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Flash/EC_QSPI.IO0": [
+        "50Ohm-se"
+      ],
+      "/Flash/EC_QSPI.IO1": [
+        "50Ohm-se"
+      ],
+      "/Flash/EC_QSPI.IO2": [
+        "50Ohm-se"
+      ],
+      "/Flash/EC_QSPI.IO3": [
+        "50Ohm-se"
+      ],
+      "/Flash/EC_QSPI.SCK": [
+        "50Ohm-se"
+      ],
+      "/Flash/EC_QSPI.~{CS0}": [
+        "50Ohm-se"
+      ],
+      "/Flash/EC_QSPI.~{CS1}": [
+        "50Ohm-se"
+      ],
+      "/Flash/EC_QSPI{QSPI}": [
+        "50Ohm-se"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -556,7 +591,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
+      "method": 2,
       "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
@@ -855,7 +890,7 @@
         "uuid": "df391740-647e-4ab6-9dcd-d61184d66fe9"
       }
     ],
-    "used_designators": "J1,J14,J17,#PWR22,#PWR29,#PWR43,#PWR51",
+    "used_designators": "U1,U7,TP8-9,R1,R128,R137-140,R167-170,R178-179,R5001-5008,C1-4,C15,C17,C5001-5002,#FLG5,#FLG9,J1,J10,J14,J17,J5001-5003,#PWR1-4,#PWR11,#PWR22-23,#PWR26,#PWR29-31,#PWR33-36,#PWR41-43,#PWR51,#PWR70,#PWR72,#PWR74-76,#PWR114,#PWR121,#PWR5001-5009",
     "variants": []
   },
   "sheets": [

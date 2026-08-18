@@ -5,4 +5,24 @@
 	(uuid "2009fa0e-d976-4d26-9d9f-2c9be0e99f55")
 	(paper "A4")
 	(lib_symbols)
+	(text "https://ww1.microchip.com/downloads/aemDocuments/documents/CPG/ProductDocuments/DataSheets/MEC172x-Data-Sheet-DS00003583.pdf"
+		(exclude_from_sim no)
+		(at 87.122 20.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c146248a-db4e-4471-ae2a-418010ec4132")
+	)
+	(text "https://www.microchip.com/en-us/product/mec1723"
+		(exclude_from_sim no)
+		(at 42.926 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d2761157-6644-4b24-bbbc-3b42b5d16753")
+	)
 )

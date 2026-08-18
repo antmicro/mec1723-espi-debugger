@@ -6,13 +6,13 @@
 	(paper "A4")
 	(title_block
 		(title "DC-SCM Server Integration eSPI Adapter HW")
-		(date "2026-08-17")
+		(date "2026-08-18")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols)
-	(text "Board should be connected to eSPI and Miscellaneous connector on dc scm interposer\nConnector type: smd pin socket 2x5 x2\nRemember about the orientation"
+	(text "Board should be connected to eSPI and Miscellaneous connector on dc scm interposer\nConnector type: smd pin socket 2x5 x2"
 		(exclude_from_sim no)
 		(at 22.098 126.492 0)
 		(effects
@@ -217,6 +217,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "EC_QSPI{QSPI}" bidirectional
+			(at 215.9 90.17 180)
+			(uuid "be276ea0-0a84-4e72-be53-6f0eeb2b2171")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
