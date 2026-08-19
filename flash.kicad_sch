@@ -959,6 +959,534 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Antmicro Symbols:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 39.37 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
+				(at 39.37 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
+				(at 39.37 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf"
+				(at 39.37 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "Tag Connect 2x5 1.27mm terminal"
+				(at 39.37 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "MPN" "TC2050-IDC-NL"
+				(at 39.37 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Tag Connect"
+				(at 39.37 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 39.37 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 39.37 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "POGO-PIN, CONNECTOR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm_1_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 29.21 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 15.113 -7.5184)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -8.636) (xy 17.145 -8.636) (xy 17.78 -8.001) (xy 17.78 -2.921) (xy 16.51 -1.016) (xy 15.24 -1.016)
+						(xy 13.97 -2.921) (xy 13.97 -8.001) (xy 14.605 -8.636) (xy 15.24 -8.636)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 15.367 -3.4544)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 15.367 -4.1656)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 15.367 -4.9276)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 15.367 -5.6388)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 15.367 -6.4008)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 15.875 -2.1336)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 16.383 -3.4544)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 16.383 -4.1656)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 16.383 -4.9276)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 16.383 -5.6388)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 16.383 -6.4008)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 16.7386 -7.5184)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Tag-Connect"
+					(at 15.875 1.651 0)
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(text "ALT: 3.3V I2C/JTAG/SPI/SWD/FTDI"
+					(at 16.002 -11.938 0)
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "3V3" passive line)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADBUS3" passive line)
+					(alternate "I2C_NC" passive line)
+					(alternate "JTAG_TMS" passive line)
+					(alternate "SPI_CS" passive line)
+					(alternate "SWD_NC" passive line)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GND" passive line)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADBUS0" passive line)
+					(alternate "I2C_SCL" passive line)
+					(alternate "JTAG_TCK" passive line)
+					(alternate "SPI_SCK" passive line)
+					(alternate "SWD_CLK" passive line)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GND" passive line)
+				)
+				(pin passive line
+					(at 31.75 -10.16 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADBUS2" passive line)
+					(alternate "I2C_SDA" passive line)
+					(alternate "JTAG_TDO" passive line)
+					(alternate "SPI_MISO" passive line)
+					(alternate "SWD_IO" passive line)
+				)
+				(pin passive line
+					(at 31.75 -7.62 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "NC" no_connect line)
+				)
+				(pin passive line
+					(at 31.75 -5.08 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADBUS1" passive line)
+					(alternate "I2C_SDA" passive line)
+					(alternate "JTAG_TDI" passive line)
+					(alternate "SPI_MOSI" passive line)
+					(alternate "SWD_IO" passive line)
+				)
+				(pin passive line
+					(at 31.75 -2.54 180)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GND" passive line)
+				)
+				(pin passive line
+					(at 31.75 0 180)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADBUS5" passive line)
+					(alternate "I2C_NC" passive line)
+					(alternate "JTAG_~{RESET}" passive line)
+					(alternate "SPI_NC" passive line)
+					(alternate "SWD_NC" passive line)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Capacitors0402:C_100n_0402"
 			(pin_numbers
 				(hide yes)
@@ -2671,7 +3199,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 85.09) (xy 223.52 85.09)
+			(xy 238.76 67.31) (xy 231.14 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3171,7 +3699,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 85.09) (xy 260.35 93.98)
+			(xy 267.97 67.31) (xy 267.97 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3181,7 +3709,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 87.63) (xy 231.14 87.63)
+			(xy 236.22 69.85) (xy 238.76 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3231,7 +3759,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 85.09) (xy 223.52 81.28)
+			(xy 231.14 67.31) (xy 231.14 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3261,7 +3789,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 87.63) (xy 241.3 87.63)
+			(xy 264.16 69.85) (xy 248.92 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3341,7 +3869,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 85.09) (xy 260.35 85.09)
+			(xy 248.92 67.31) (xy 267.97 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3361,7 +3889,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 92.71) (xy 241.3 92.71)
+			(xy 264.16 74.93) (xy 248.92 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3421,7 +3949,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 90.17) (xy 241.3 90.17)
+			(xy 264.16 72.39) (xy 248.92 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3451,7 +3979,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 90.17) (xy 231.14 90.17)
+			(xy 236.22 72.39) (xy 238.76 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3481,7 +4009,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 92.71) (xy 231.14 92.71)
+			(xy 236.22 74.93) (xy 238.76 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3540,7 +4068,7 @@
 		(uuid "047f2101-1211-4a93-a080-3b96441f7c41")
 	)
 	(label "EC_QSPI.IO0"
-		(at 256.54 90.17 180)
+		(at 264.16 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3560,7 +4088,7 @@
 		(uuid "29b479d6-e7f9-4890-89fe-8c8757b099da")
 	)
 	(label "EC_QSPI.~{CS0}"
-		(at 228.6 87.63 180)
+		(at 236.22 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3570,7 +4098,7 @@
 		(uuid "4f85cab2-a2cb-4520-af6a-4be31b324bf4")
 	)
 	(label "EC_QSPI.IO2"
-		(at 228.6 92.71 180)
+		(at 236.22 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3580,7 +4108,7 @@
 		(uuid "649a8a03-215c-40b0-9902-22543aef5e90")
 	)
 	(label "EC_QSPI.IO1"
-		(at 228.6 90.17 180)
+		(at 236.22 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3620,7 +4148,7 @@
 		(uuid "bed2ede6-4221-4fe6-8d82-1ac4bc6cb480")
 	)
 	(label "EC_QSPI.SCK"
-		(at 256.54 87.63 180)
+		(at 264.16 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3640,7 +4168,7 @@
 		(uuid "cad37673-9650-41f4-8ce4-c72a2e47d248")
 	)
 	(label "EC_QSPI.IO3"
-		(at 256.54 92.71 180)
+		(at 264.16 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4326,7 +4854,7 @@
 	)
 	(symbol
 		(lib_id "Antmicro Symbols:GND")
-		(at 260.35 93.98 0)
+		(at 267.97 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4337,7 +4865,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ca78e07-2539-479f-ad01-5b3a8c812d14")
 		(property "Reference" "#PWR05009"
-			(at 269.24 96.52 0)
+			(at 276.86 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4350,7 +4878,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 99.06 0)
+			(at 267.97 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4361,7 +4889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 101.6 0)
+			(at 276.86 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4374,7 +4902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 106.68 0)
+			(at 276.86 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4387,7 +4915,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 109.22 0)
+			(at 276.86 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4399,7 +4927,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 269.24 101.6 0)
+			(at 276.86 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4412,7 +4940,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 269.24 104.14 0)
+			(at 276.86 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4604,7 +5132,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+1V8")
-		(at 223.52 81.28 0)
+		(at 231.14 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4615,7 +5143,7 @@
 		(fields_autoplaced yes)
 		(uuid "3701cdbe-b42b-4969-8bd5-174bbd901bda")
 		(property "Reference" "#PWR05008"
-			(at 238.76 83.82 0)
+			(at 246.38 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4628,7 +5156,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 223.52 76.2 0)
+			(at 231.14 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4639,7 +5167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 88.9 0)
+			(at 246.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4652,7 +5180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 91.44 0)
+			(at 246.38 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4665,7 +5193,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 93.98 0)
+			(at 246.38 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4677,7 +5205,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 238.76 86.36 0)
+			(at 246.38 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4690,7 +5218,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 238.76 88.9 0)
+			(at 246.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5868,7 +6396,7 @@
 	)
 	(symbol
 		(lib_id "Antmicro Symbols:PinHeader_2x4_P2.54mm_Drill1.02mm")
-		(at 231.14 85.09 0)
+		(at 238.76 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5879,7 +6407,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ee824e2-52a6-43b3-addc-0646643376fd")
 		(property "Reference" "J5003"
-			(at 236.22 78.74 0)
+			(at 243.84 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5890,7 +6418,7 @@
 			)
 		)
 		(property "Value" "PinHeader_2x4_P2.54mm_Drill1.02mm"
-			(at 256.54 90.17 0)
+			(at 264.16 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5903,7 +6431,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:PinHeader_2x4_P2.54mm_Drill1.02mm"
-			(at 256.54 92.71 0)
+			(at 264.16 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5916,7 +6444,7 @@
 			)
 		)
 		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf"
-			(at 256.54 95.25 0)
+			(at 264.16 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5929,7 +6457,7 @@
 			)
 		)
 		(property "Description" "Header 2.54mm pitch THT 8P in Dual Pin Header"
-			(at 256.54 107.95 0)
+			(at 264.16 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5941,7 +6469,7 @@
 			)
 		)
 		(property "MPN" "TSW-104-23-T-D"
-			(at 236.22 81.28 0)
+			(at 243.84 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5952,7 +6480,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 256.54 100.33 0)
+			(at 264.16 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5965,7 +6493,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 256.54 102.87 0)
+			(at 264.16 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5978,7 +6506,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 256.54 105.41 0)
+			(at 264.16 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6018,6 +6546,169 @@
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "J5003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Antmicro Symbols:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm")
+		(at 228.6 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2e23534-1730-4f4c-8c47-8fedf7834bc1")
+		(property "Reference" "J5001"
+			(at 244.475 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
+			(at 267.97 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
+			(at 267.97 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf"
+			(at 267.97 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Tag Connect 2x5 1.27mm terminal"
+			(at 267.97 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "TC2050-IDC-NL"
+			(at 244.475 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Tag Connect"
+			(at 267.97 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 267.97 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 267.97 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "2c651faa-5a07-4acf-ae14-782f5e272fb8")
+		)
+		(pin "6"
+			(uuid "6c1e4015-3f67-4818-8c7d-4c733169dad5")
+		)
+		(pin "8"
+			(uuid "dfe37a25-241c-488a-88ca-a9f267d1b9b1")
+		)
+		(pin "3"
+			(uuid "537ed359-e10e-41fb-b045-7d92070a5a41")
+		)
+		(pin "7"
+			(uuid "52406e1b-3f74-43c9-9bd1-2796ed3e3002")
+		)
+		(pin "4"
+			(uuid "731e59fe-e84c-453a-b6a0-9fe19e2aa663")
+		)
+		(pin "10"
+			(uuid "3c1cff88-3d46-421d-bc02-81b64e7c2b98")
+		)
+		(pin "5"
+			(uuid "11dd0d7a-32ad-466b-8e81-3b0a512e413f")
+		)
+		(pin "9"
+			(uuid "a4565208-6207-4dd5-8f8e-66fa6a3c655b")
+		)
+		(pin "1"
+			(uuid "3bf9cf43-1365-4d96-ab9d-3a448aa213a0")
+		)
+		(instances
+			(project "dc-scm-server-integration-espi-adapter"
+				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
+					(reference "J5001")
 					(unit 1)
 				)
 			)

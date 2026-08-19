@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "DC-SCM Server Integration eSPI Adapter HW")
-		(date "2026-08-18")
+		(date "2026-08-19")
 		(rev "1.0.0")
-		(company "Antmicro Ltd")
+		(company "Antmicro")
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols
@@ -275,36 +275,17 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Board should be connected to eSPI and Miscellaneous connector on dc scm interposer\nConnector type: smd pin socket 2x5 x2"
+	(text "TODO:\n- Route all signals on root sheet\n- Change QSPI programming connector\n- Add the rest of strapping pins\n- Add testpoints do unused GPIO"
 		(exclude_from_sim no)
-		(at 22.098 126.492 0)
+		(at 23.368 154.94 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
+				(color 255 6 32 1)
 			)
 			(justify left)
 		)
-		(uuid "0a6fad15-dcfc-4fa6-aebe-e9a92ef14902")
-	)
-	(text "2x 7-segment display\nRoute to gpios via buffers or use decicated driver"
-		(exclude_from_sim no)
-		(at 129.032 165.354 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "57b9f4e9-eed8-43e2-b5a1-c490f6d9067f")
-	)
-	(text "UART"
-		(exclude_from_sim no)
-		(at 165.608 164.846 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "60fb924d-0092-4f9d-b485-483ef98288e6")
+		(uuid "3597c16f-6e35-4f8e-8ba0-135e70322e8b")
 	)
 	(bus
 		(pts
