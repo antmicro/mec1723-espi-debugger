@@ -672,6 +672,17 @@
 		)
 		(uuid "551900ff-cfcd-454c-bffe-633579eece82")
 	)
+	(text "Mounted on the bottom side - remember about proper orientation!"
+		(exclude_from_sim no)
+		(at 106.172 124.714 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 35 71 1)
+			)
+		)
+		(uuid "68b63bcb-13f4-44ae-8c65-eb8372a2349a")
+	)
 	(text "Not connected to anything\nUsed only for mechanical purposes!"
 		(exclude_from_sim no)
 		(at 222.758 97.028 0)
