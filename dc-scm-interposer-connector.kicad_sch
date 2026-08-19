@@ -694,10 +694,10 @@
 		(uuid "fb672087-d935-4115-a06c-c3ab44e44813")
 	)
 	(junction
-		(at 96.52 102.87)
+		(at 95.25 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ef2df562-2ae1-4d23-9162-2172e0ca59b1")
+		(uuid "f66ed1c1-ed14-4114-be4e-dc6019384436")
 	)
 	(no_connect
 		(at 111.76 115.57)
@@ -714,10 +714,6 @@
 	(no_connect
 		(at 97.79 115.57)
 		(uuid "7114f7d0-eabb-441b-b311-849a161736c1")
-	)
-	(no_connect
-		(at 97.79 107.95)
-		(uuid "89124568-2782-4381-acee-dbdca488c475")
 	)
 	(no_connect
 		(at 111.76 113.03)
@@ -853,16 +849,6 @@
 		)
 		(uuid "2e63af46-8b92-4c7c-8c4b-39bc4f2861f4")
 	)
-	(wire
-		(pts
-			(xy 91.44 102.87) (xy 96.52 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "301643d5-f40e-42bc-9f47-89cb524be75a")
-	)
 	(bus
 		(pts
 			(xy 138.43 91.44) (xy 138.43 93.98)
@@ -872,16 +858,6 @@
 			(type default)
 		)
 		(uuid "35b294e6-10a0-45fe-8f4c-083751d34f96")
-	)
-	(wire
-		(pts
-			(xy 96.52 105.41) (xy 96.52 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48e2ef40-f48c-42e3-aa9a-55ce9db458f6")
 	)
 	(bus
 		(pts
@@ -902,6 +878,36 @@
 			(type default)
 		)
 		(uuid "4d30aa98-9686-49d6-924b-071dbf32c0ad")
+	)
+	(wire
+		(pts
+			(xy 95.25 105.41) (xy 95.25 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71bce22d-0305-425a-880f-b1f72808ab12")
+	)
+	(wire
+		(pts
+			(xy 93.98 107.95) (xy 97.79 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757dcf86-f059-4962-a84d-cee3c071c201")
+	)
+	(wire
+		(pts
+			(xy 95.25 102.87) (xy 97.79 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b96348-7eb7-4db1-973a-b56204eabddb")
 	)
 	(wire
 		(pts
@@ -963,16 +969,6 @@
 		)
 		(uuid "b6f7674d-b3e5-446b-a606-4d607cb1716b")
 	)
-	(wire
-		(pts
-			(xy 97.79 105.41) (xy 96.52 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be9c249b-2e24-4c65-aee6-a2aa96875d25")
-	)
 	(bus
 		(pts
 			(xy 139.7 88.9) (xy 138.43 90.17)
@@ -995,7 +991,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 102.87) (xy 97.79 102.87)
+			(xy 91.44 102.87) (xy 95.25 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1022,6 +1018,16 @@
 			(type default)
 		)
 		(uuid "e18ea5e4-e03a-4076-8d40-9b3d9daeff3e")
+	)
+	(wire
+		(pts
+			(xy 97.79 105.41) (xy 95.25 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f3dec3-1a75-4ea6-9dc3-4d714c23ab56")
 	)
 	(wire
 		(pts
@@ -1133,6 +1139,17 @@
 			(justify left)
 		)
 		(uuid "63d66877-8e8c-4922-8024-f5cfe7e3a458")
+	)
+	(hierarchical_label "DC_SCM_P3V0"
+		(shape output)
+		(at 93.98 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64005595-de16-410b-8cdb-3bc7251e46af")
 	)
 	(hierarchical_label "EC_ESPI{eSPI}"
 		(shape bidirectional)
@@ -1305,7 +1322,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 91.44 102.87 0)
+		(at 91.44 102.87 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1315,7 +1332,7 @@
 		(dnp no)
 		(uuid "be642ae0-9a75-4ffe-9895-d86ea45b810f")
 		(property "Reference" "#PWR02002"
-			(at 100.33 105.41 0)
+			(at 88.9 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1328,7 +1345,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 105.664 0)
+			(at 86.106 102.362 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1340,7 +1357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 110.49 0)
+			(at 83.82 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1353,7 +1370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 115.57 0)
+			(at 78.74 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1366,7 +1383,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 118.11 0)
+			(at 76.2 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1378,7 +1395,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 100.33 110.49 0)
+			(at 83.82 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1391,7 +1408,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 100.33 113.03 0)
+			(at 81.28 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

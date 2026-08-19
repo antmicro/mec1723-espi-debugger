@@ -326,6 +326,16 @@
 		)
 		(uuid "753bc661-dfd9-4f17-ad4d-511a76b16331")
 	)
+	(wire
+		(pts
+			(xy 69.85 86.36) (xy 118.11 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e59bea-cf96-4db2-adc3-c19dea5eeb05")
+	)
 	(bus
 		(pts
 			(xy 69.85 90.17) (xy 118.11 90.17)
@@ -890,6 +900,16 @@
 				(justify right)
 			)
 		)
+		(pin "DC_SCM_P3V0" input
+			(at 118.11 86.36 180)
+			(uuid "0aaa76b4-0f76-4a0e-a55b-3cb06ce71754")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9"
@@ -937,7 +957,7 @@
 			)
 		)
 		(pin "DC_SCM_12V_AUX" output
-			(at 69.85 86.36 0)
+			(at 69.85 82.55 0)
 			(uuid "9cec5e29-3150-40cd-a874-fd5cb40ca21f")
 			(effects
 				(font
@@ -949,6 +969,16 @@
 		(pin "EC_ESPI{eSPI}" bidirectional
 			(at 69.85 90.17 0)
 			(uuid "9b84fd78-721e-4565-87d3-5d889cbf39ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_P3V0" output
+			(at 69.85 86.36 0)
+			(uuid "e33be388-7664-4814-9ded-d78b372d29ff")
 			(effects
 				(font
 					(size 1.27 1.27)
