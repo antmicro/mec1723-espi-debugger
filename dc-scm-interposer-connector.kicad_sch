@@ -1146,7 +1146,7 @@
 		(uuid "86f6b9e4-d665-4619-97f0-10e42fd388f4")
 	)
 	(hierarchical_label "DC_SCM_12V_AUX"
-		(shape input)
+		(shape output)
 		(at 93.98 110.49 180)
 		(effects
 			(font
