@@ -667,7 +667,6 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 52 75 1)
 			)
 		)
 		(uuid "551900ff-cfcd-454c-bffe-633579eece82")
@@ -678,14 +677,13 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 35 71 1)
 			)
 		)
 		(uuid "68b63bcb-13f4-44ae-8c65-eb8372a2349a")
 	)
 	(text "Not connected to anything\nUsed only for mechanical purposes!"
 		(exclude_from_sim no)
-		(at 222.758 97.028 0)
+		(at 223.012 100.076 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -702,10 +700,6 @@
 	(no_connect
 		(at 111.76 115.57)
 		(uuid "012f452a-3853-46c1-9e88-5439ed60acd3")
-	)
-	(no_connect
-		(at 111.76 110.49)
-		(uuid "5851d627-69b2-4450-8cd8-c2f9b63af7b5")
 	)
 	(no_connect
 		(at 111.76 105.41)
@@ -1150,6 +1144,17 @@
 			(justify right)
 		)
 		(uuid "64005595-de16-410b-8cdb-3bc7251e46af")
+	)
+	(hierarchical_label "DC_SCM_STBY_EN"
+		(shape output)
+		(at 111.76 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f20c0b7-514d-41fe-848f-13dcb46622e0")
 	)
 	(hierarchical_label "EC_ESPI{eSPI}"
 		(shape bidirectional)

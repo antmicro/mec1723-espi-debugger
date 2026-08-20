@@ -281,7 +281,6 @@
 		(effects
 			(font
 				(size 2.54 2.54)
-				(color 255 6 32 1)
 			)
 			(justify left)
 		)
@@ -297,6 +296,36 @@
 		)
 		(uuid "35286369-beee-443d-b9ff-e0c18f200db9")
 	)
+	(wire
+		(pts
+			(xy 69.85 85.09) (xy 96.52 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ee7c22-4213-4b31-a33b-5b68aebcf933")
+	)
+	(wire
+		(pts
+			(xy 96.52 36.83) (xy 118.11 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "672ca1e5-6c8e-421e-adf1-eaa5026a0e07")
+	)
+	(wire
+		(pts
+			(xy 96.52 85.09) (xy 96.52 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f85d4b0-7a71-4a66-84bd-47766451038d")
+	)
 	(bus
 		(pts
 			(xy 165.1 116.84) (xy 165.1 140.97)
@@ -309,7 +338,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 86.36) (xy 118.11 86.36)
+			(xy 69.85 88.9) (xy 118.11 88.9)
 		)
 		(stroke
 			(width 0)
@@ -317,15 +346,45 @@
 		)
 		(uuid "86e59bea-cf96-4db2-adc3-c19dea5eeb05")
 	)
+	(wire
+		(pts
+			(xy 69.85 81.28) (xy 92.71 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "888936d3-e9d2-4d20-b6af-806d76fa4a85")
+	)
+	(wire
+		(pts
+			(xy 92.71 33.02) (xy 118.11 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f925ee-fb3b-47b8-9cbe-54a861150295")
+	)
 	(bus
 		(pts
-			(xy 69.85 90.17) (xy 118.11 90.17)
+			(xy 69.85 92.71) (xy 118.11 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b8c74aef-7758-4fc2-b058-081dc5e30288")
+	)
+	(wire
+		(pts
+			(xy 92.71 81.28) (xy 92.71 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff06eccc-4fce-4783-ab9d-659c1d518c90")
 	)
 	(symbol
 		(lib_id "Antmicro Symbols:antmicro_logo")
@@ -629,6 +688,26 @@
 				(justify left top)
 			)
 		)
+		(pin "DC_SCM_12V_AUX" input
+			(at 118.11 36.83 180)
+			(uuid "495e4980-f5b9-430b-ba7f-f03d72f189d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_SCM_STBY_EN" input
+			(at 118.11 33.02 180)
+			(uuid "ee24c15f-e93e-4140-a015-fda225816528")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9"
@@ -685,7 +764,7 @@
 			)
 		)
 		(pin "EC_UART{UART}" bidirectional
-			(at 171.45 140.97 90)
+			(at 168.91 140.97 90)
 			(uuid "3b297e66-3259-436b-924c-155510f15e71")
 			(effects
 				(font
@@ -852,7 +931,7 @@
 			)
 		)
 		(pin "EC_ESPI{eSPI}" bidirectional
-			(at 118.11 90.17 180)
+			(at 118.11 92.71 180)
 			(uuid "a53bf5da-bd08-4eeb-9533-6f32956394ad")
 			(effects
 				(font
@@ -882,7 +961,7 @@
 			)
 		)
 		(pin "DC_SCM_P3V0" input
-			(at 118.11 86.36 180)
+			(at 118.11 88.9 180)
 			(uuid "0aaa76b4-0f76-4a0e-a55b-3cb06ce71754")
 			(effects
 				(font
@@ -938,7 +1017,7 @@
 			)
 		)
 		(pin "DC_SCM_12V_AUX" output
-			(at 69.85 82.55 0)
+			(at 69.85 85.09 0)
 			(uuid "9cec5e29-3150-40cd-a874-fd5cb40ca21f")
 			(effects
 				(font
@@ -948,7 +1027,7 @@
 			)
 		)
 		(pin "EC_ESPI{eSPI}" bidirectional
-			(at 69.85 90.17 0)
+			(at 69.85 92.71 0)
 			(uuid "9b84fd78-721e-4565-87d3-5d889cbf39ad")
 			(effects
 				(font
@@ -958,8 +1037,18 @@
 			)
 		)
 		(pin "DC_SCM_P3V0" output
-			(at 69.85 86.36 0)
+			(at 69.85 88.9 0)
 			(uuid "e33be388-7664-4814-9ded-d78b372d29ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_STBY_EN" output
+			(at 69.85 81.28 0)
+			(uuid "18c37187-f4ff-4642-9a07-047bee972484")
 			(effects
 				(font
 					(size 1.27 1.27)
