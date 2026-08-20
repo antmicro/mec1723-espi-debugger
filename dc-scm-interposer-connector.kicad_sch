@@ -795,6 +795,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 110.49) (xy 111.76 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3aaff5-8391-42e1-bb4f-566a92966794")
+	)
+	(wire
+		(pts
 			(xy 111.76 92.71) (xy 137.16 92.71)
 		)
 		(stroke
@@ -1147,7 +1157,7 @@
 	)
 	(hierarchical_label "DC_SCM_STBY_EN"
 		(shape output)
-		(at 111.76 110.49 0)
+		(at 115.57 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
