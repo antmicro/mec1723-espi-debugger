@@ -2611,7 +2611,7 @@
 		)
 		(uuid "fa5f1fc9-5bf2-4860-a995-a3a69b1daf24")
 	)
-	(hierarchical_label "EX_UART{UART}"
+	(hierarchical_label "EC_UART{UART}"
 		(shape bidirectional)
 		(at 124.46 118.11 180)
 		(effects
