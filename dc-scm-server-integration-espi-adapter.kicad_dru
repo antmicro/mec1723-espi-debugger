@@ -1,0 +1,27 @@
+(version 1)
+
+(rule "LTPI DiffPair In2"
+    (condition "(A.NetClass == '100Ohm-diff')")
+    (constraint track_width (opt 0.16mm))
+    (constraint diff_pair_gap (opt 0.3mm))
+)
+
+(rule "(pcie_inner"
+	(layer inner)
+	(condition "(A.NetClass == '85Ohm-diff')")
+	(constraint track_width (opt 0.17mm))
+	(constraint diff_pair_gap  (opt 0.15mm))
+)
+
+(rule "(spi_inner"
+	(layer inner)
+	(condition "(A.NetClass == '50Ohm-se')")
+	(constraint track_width (opt 0.15mm))
+)
+
+(rule "(usb_2.0_inner"
+	(layer inner)
+	(condition "(A.NetClass == '90Ohm-diff')")
+	(constraint track_width (opt 0.16mm))
+	(constraint diff_pair_gap  (opt 0.15mm))
+)

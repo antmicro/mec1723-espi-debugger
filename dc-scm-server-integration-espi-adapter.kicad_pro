@@ -538,10 +538,13 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "50Ohm-se",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(30, 144, 154)",
         "priority": 0,
         "schematic_color": "rgb(35, 135, 137)",
+        "track_width": 0.18,
         "tuning_profile": "",
+        "via_diameter": 0.55,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
