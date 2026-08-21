@@ -2615,7 +2615,7 @@
 		(uuid "4b85f049-a27f-4433-8a57-65ce879e5eb6")
 	)
 	(junction
-		(at 87.63 68.58)
+		(at 87.63 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bddb8fe-abc5-4645-af90-10a87c0149d9")
@@ -2639,7 +2639,7 @@
 		(uuid "749c76c8-efb7-45c6-87f8-94f4ae31115c")
 	)
 	(junction
-		(at 69.85 68.58)
+		(at 69.85 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87822cbc-e052-4c98-9f24-e93ae4f6a717")
@@ -2657,7 +2657,7 @@
 		(uuid "ab47d5e1-3600-4842-8487-dec9d0b3c8bd")
 	)
 	(junction
-		(at 96.52 68.58)
+		(at 96.52 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac008f54-1b8a-40cf-9f4d-3df1d34ce733")
@@ -2669,7 +2669,7 @@
 		(uuid "bc7e20ef-54bb-412d-a616-ab21611f660c")
 	)
 	(junction
-		(at 105.41 68.58)
+		(at 105.41 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf9e71ad-15bd-4368-8321-ba1e440c7e10")
@@ -2699,7 +2699,7 @@
 		(uuid "d4e89bdd-6afe-479a-bbfa-9c69947d2f69")
 	)
 	(junction
-		(at 78.74 68.58)
+		(at 78.74 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d78d3a71-e430-4012-b606-6d8a745a3866")
@@ -2792,7 +2792,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 68.58) (xy 96.52 68.58)
+			(xy 105.41 67.31) (xy 96.52 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2942,7 +2942,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 68.58) (xy 69.85 69.85)
+			(xy 69.85 67.31) (xy 69.85 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3092,7 +3092,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 68.58) (xy 87.63 68.58)
+			(xy 96.52 67.31) (xy 87.63 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3192,7 +3192,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 68.58) (xy 60.96 69.85)
+			(xy 60.96 67.31) (xy 60.96 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3202,7 +3202,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 68.58) (xy 78.74 69.85)
+			(xy 78.74 67.31) (xy 78.74 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3262,7 +3262,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 68.58) (xy 96.52 69.85)
+			(xy 96.52 67.31) (xy 96.52 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3302,7 +3302,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 67.31) (xy 105.41 68.58)
+			(xy 105.41 66.04) (xy 105.41 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3332,7 +3332,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 68.58) (xy 69.85 68.58)
+			(xy 78.74 67.31) (xy 69.85 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3402,7 +3402,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 69.85) (xy 105.41 68.58)
+			(xy 105.41 69.85) (xy 105.41 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3502,7 +3502,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 68.58) (xy 78.74 68.58)
+			(xy 87.63 67.31) (xy 78.74 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3642,7 +3642,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 68.58) (xy 60.96 68.58)
+			(xy 69.85 67.31) (xy 60.96 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3702,7 +3702,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 68.58) (xy 87.63 69.85)
+			(xy 87.63 67.31) (xy 87.63 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5649,7 +5649,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+1V8")
-		(at 105.41 67.31 0)
+		(at 105.41 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5660,7 +5660,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bfe2f49-e5a8-4a91-bde0-144591f20d2a")
 		(property "Reference" "#PWR05001"
-			(at 120.65 69.85 0)
+			(at 120.65 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5673,7 +5673,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 105.41 62.23 0)
+			(at 105.41 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5684,7 +5684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 74.93 0)
+			(at 120.65 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5697,7 +5697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 77.47 0)
+			(at 120.65 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5710,7 +5710,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 80.01 0)
+			(at 120.65 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5722,7 +5722,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 120.65 72.39 0)
+			(at 120.65 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5735,7 +5735,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 120.65 74.93 0)
+			(at 120.65 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
