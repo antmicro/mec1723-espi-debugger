@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "2009fa0e-d976-4d26-9d9f-2c9be0e99f55")
 	(paper "A3")
+	(title_block
+		(title "eSPI Adapter")
+		(date "2026-08-21")
+		(rev "1.0.0")
+		(company "Antmicro")
+	)
 	(lib_symbols
 		(symbol "Antmicro Symbols:+3V0"
 			(power global)

@@ -5,11 +5,10 @@
 	(uuid "df391740-647e-4ab6-9dcd-d61184d66fe9")
 	(paper "A4")
 	(title_block
-		(title "DC-SCM Server Integration eSPI Adapter HW")
+		(title "eSPI Adapter")
 		(date "2026-08-21")
 		(rev "1.0.0")
 		(company "Antmicro")
-		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols
 		(symbol "Antmicro Symbols:Fiducial_1mm_Mask2mm"

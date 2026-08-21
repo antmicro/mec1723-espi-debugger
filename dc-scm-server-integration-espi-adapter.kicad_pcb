@@ -8,11 +8,10 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "DC_SCM Server Integration eSPI Adapter")
-		(date "2026-08-17")
+		(title "eSPI Adapter")
+		(date "2026-08-21")
 		(rev "1.0.0")
 		(company "Antmicro")
-		(comment 1 "www.antmicro.com")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -187,7 +186,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
