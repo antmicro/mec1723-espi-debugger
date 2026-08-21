@@ -671,16 +671,6 @@
 		)
 		(uuid "551900ff-cfcd-454c-bffe-633579eece82")
 	)
-	(text "Mounted on the bottom side - remember about proper orientation!"
-		(exclude_from_sim no)
-		(at 106.172 124.714 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "68b63bcb-13f4-44ae-8c65-eb8372a2349a")
-	)
 	(text "Not connected to anything\nUsed only for mechanical purposes!"
 		(exclude_from_sim no)
 		(at 223.012 100.076 0)
@@ -1336,6 +1326,199 @@
 		)
 	)
 	(symbol
+		(lib_id "Antmicro Symbols:PinSocket_2x10_P2.54mm_SMD")
+		(at 111.76 92.71 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5406fc05-d01f-42bb-a174-bdede63b098e")
+		(property "Reference" "J2001"
+			(at 104.775 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PinSocket_2x10_P2.54mm_SMD"
+			(at 83.82 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:PinSocket_2x10_P2.54mm_SMD"
+			(at 83.82 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/527/ssm_sm-2853675.pdf"
+			(at 83.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "PCB Receptacle, Board-to-Board, 2.54 mm, 2 Rows, 20 Contacts, Surface Mount"
+			(at 83.82 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "SSM-110-L-DV-P"
+			(at 104.775 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 83.82 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 83.82 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 83.82 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "7"
+			(uuid "066c3025-f8fc-43d7-8433-c4afc4204864")
+		)
+		(pin "19"
+			(uuid "f6b54058-5e71-4533-972a-591c33f7e068")
+		)
+		(pin "18"
+			(uuid "ffbbd204-1bdc-40b6-8bf2-90b72028b55a")
+		)
+		(pin "9"
+			(uuid "b5c27764-3007-4e47-bdd3-3345b12effc5")
+		)
+		(pin "10"
+			(uuid "c1d907ff-7d86-45c7-829a-c8dd12dc78ce")
+		)
+		(pin "8"
+			(uuid "bb7606f8-1dc3-4788-b82d-756111853282")
+		)
+		(pin "15"
+			(uuid "a62dd988-a598-4f68-b47f-8286cd16f364")
+		)
+		(pin "14"
+			(uuid "0be5e5bc-ba39-44c7-8f8b-3fef3ff3f3c6")
+		)
+		(pin "13"
+			(uuid "be7dfc97-6d77-479d-b72e-68b76da82d6a")
+		)
+		(pin "11"
+			(uuid "7ff321c3-b549-4ec5-9f92-0fbfa465fc4e")
+		)
+		(pin "12"
+			(uuid "84805e74-ccad-471f-a834-914895dbf1d4")
+		)
+		(pin "17"
+			(uuid "98be4d27-41a2-46b1-8344-0d39177a8fff")
+		)
+		(pin "20"
+			(uuid "2acc3dce-5ac7-4384-b78e-c4e29e190270")
+		)
+		(pin "6"
+			(uuid "46a8ef94-4161-4d9a-85ac-38def15f6c49")
+		)
+		(pin "3"
+			(uuid "b23a56a8-612d-4ffb-bf54-6b3dafbcc0b6")
+		)
+		(pin "5"
+			(uuid "17e22d7d-e3fc-414a-8f3a-c814026a9216")
+		)
+		(pin "16"
+			(uuid "a19985b6-0721-41ed-8dee-c1f5767ff333")
+		)
+		(pin "4"
+			(uuid "ebec5685-356c-443f-bd4c-687fd4bd06e7")
+		)
+		(pin "2"
+			(uuid "1d8c3ded-9ebb-419a-9e8c-06cd37829cb5")
+		)
+		(pin "1"
+			(uuid "c9b3958b-8e50-4ab7-b428-7489c6268d93")
+		)
+		(instances
+			(project "dc-scm-server-integration-espi-adapter"
+				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/dad11b40-64da-40df-af81-feff62248020"
+					(reference "J2001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 91.44 102.87 270)
 		(unit 1)
@@ -1442,199 +1625,6 @@
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/dad11b40-64da-40df-af81-feff62248020"
 					(reference "#PWR02002")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Antmicro Symbols:PinSocket_2x10_P2.54mm_SMD")
-		(at 97.79 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9bde268-c02e-446f-bc6e-8f6828ada414")
-		(property "Reference" "J2001"
-			(at 104.775 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "PinSocket_2x10_P2.54mm_SMD"
-			(at 125.73 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:PinSocket_2x10_P2.54mm_SMD"
-			(at 125.73 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/527/ssm_sm-2853675.pdf"
-			(at 125.73 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "PCB Receptacle, Board-to-Board, 2.54 mm, 2 Rows, 20 Contacts, Surface Mount"
-			(at 125.73 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "SSM-110-L-DV-P"
-			(at 104.775 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Samtec"
-			(at 125.73 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 125.73 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 125.73 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "7"
-			(uuid "d5fc341e-7469-4aba-92a6-e07e0a7ae722")
-		)
-		(pin "19"
-			(uuid "99fda7c5-93f8-4152-bb79-1d4a4b280757")
-		)
-		(pin "18"
-			(uuid "7682c360-ad7d-497c-abb2-0b2f966354ea")
-		)
-		(pin "9"
-			(uuid "79811cfc-64a3-4d29-90a7-a4f360c1c4d3")
-		)
-		(pin "10"
-			(uuid "c14591df-6028-47a6-974a-cd26dded3afe")
-		)
-		(pin "8"
-			(uuid "d7647239-9ba2-43ba-8e09-6bf7314cc179")
-		)
-		(pin "15"
-			(uuid "7fd1627f-5994-4b42-b222-63ec663119d0")
-		)
-		(pin "14"
-			(uuid "82e85f07-3d6c-4078-8608-c872514ed106")
-		)
-		(pin "13"
-			(uuid "1725ceb3-5bec-4885-96fc-03809386bfa0")
-		)
-		(pin "11"
-			(uuid "6a44e7bb-8d37-4df2-80ae-926ef3ab5c0a")
-		)
-		(pin "12"
-			(uuid "5625004b-1be9-4939-87b8-0668189a1546")
-		)
-		(pin "17"
-			(uuid "67056d99-964b-4b7a-a89e-0119c434e5a5")
-		)
-		(pin "20"
-			(uuid "ba0a24e7-0b14-4dd3-a3b3-91e02eea96ef")
-		)
-		(pin "6"
-			(uuid "839aae77-1571-4241-bbd6-3606cc7dc200")
-		)
-		(pin "3"
-			(uuid "4ee92a0b-3f82-4ea7-b90f-5f99a52b10e1")
-		)
-		(pin "5"
-			(uuid "e5078486-7071-444f-ba2a-89c97cc4ca28")
-		)
-		(pin "16"
-			(uuid "aabe7cf6-ee5a-4d42-af49-26a825b8241e")
-		)
-		(pin "4"
-			(uuid "1d2b1224-5e27-4d67-8a21-f257bacbc9bb")
-		)
-		(pin "2"
-			(uuid "10010fd6-cc48-4b6f-a4b4-8e26faf544ab")
-		)
-		(pin "1"
-			(uuid "37376a5e-c7e5-4b65-925e-1a428a3a9b9c")
-		)
-		(instances
-			(project "dc-scm-server-integration-espi-adapter"
-				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/dad11b40-64da-40df-af81-feff62248020"
-					(reference "J2001")
 					(unit 1)
 				)
 			)

@@ -384,17 +384,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO:\n- Add the rest of strapping pins\n- Add testpoints do unused GPIO"
-		(exclude_from_sim no)
-		(at 24.13 146.558 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "3597c16f-6e35-4f8e-8ba0-135e70322e8b")
-	)
 	(bus
 		(pts
 			(xy 137.16 140.97) (xy 137.16 130.81)
@@ -414,16 +403,6 @@
 			(type default)
 		)
 		(uuid "35286369-beee-443d-b9ff-e0c18f200db9")
-	)
-	(bus
-		(pts
-			(xy 168.91 116.84) (xy 168.91 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b0194aa-d445-43e7-bf9c-904e71283bf7")
 	)
 	(wire
 		(pts
@@ -474,6 +453,16 @@
 			(type default)
 		)
 		(uuid "753bc661-dfd9-4f17-ad4d-511a76b16331")
+	)
+	(bus
+		(pts
+			(xy 168.91 116.84) (xy 168.91 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9968a9-0763-40cc-8f57-bae90f07818e")
 	)
 	(wire
 		(pts
@@ -534,6 +523,16 @@
 			(type default)
 		)
 		(uuid "b8c74aef-7758-4fc2-b058-081dc5e30288")
+	)
+	(bus
+		(pts
+			(xy 172.72 116.84) (xy 172.72 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24d8796-1ebc-4e26-bd2e-eae76313df08")
 	)
 	(bus
 		(pts
@@ -1814,9 +1813,19 @@
 				(justify right)
 			)
 		)
-		(pin "EC_UART{UART}" bidirectional
+		(pin "EC_UART0{UART}" bidirectional
 			(at 168.91 140.97 90)
 			(uuid "3b297e66-3259-436b-924c-155510f15e71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EC_UART1{UART}" bidirectional
+			(at 172.72 140.97 90)
+			(uuid "38c8046d-58bf-473e-9d35-b1b4f722b867")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +1880,7 @@
 		)
 		(pin "7SEG_H{7SEG}" input
 			(at 137.16 140.97 90)
-			(uuid "b78db03c-d66c-444c-9d41-85ec9b6d4f4c")
+			(uuid "60d089e5-4fd0-4a6c-841a-f37ff1189b66")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,7 +1890,7 @@
 		)
 		(pin "7SEG_L{7SEG}" input
 			(at 133.35 140.97 90)
-			(uuid "c467939e-d706-45aa-a705-6876c2b69ea8")
+			(uuid "2e996ce4-2945-49ae-bcd8-3c2d4f0da31b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,29 +2039,39 @@
 				(justify left)
 			)
 		)
-		(pin "7SEG_H{7SEG}" input
-			(at 148.59 116.84 270)
-			(uuid "79cad5ec-c482-4922-93c4-115c6202b7a5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "7SEG_L{7SEG}" input
-			(at 144.78 116.84 270)
-			(uuid "0b6c9775-f265-45e7-a363-1a16a44ba22d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "EC_UART{UART}" bidirectional
+		(pin "EC_UART0{UART}" bidirectional
 			(at 168.91 116.84 270)
 			(uuid "13eca191-9caa-4297-a310-4791da6e2973")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EC_UART1{UART}" bidirectional
+			(at 172.72 116.84 270)
+			(uuid "b7b59f84-8a76-4d39-bd8d-2aea9a086efc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "7SEG_H{7SEG}" output
+			(at 144.78 116.84 270)
+			(uuid "ebc7511b-f6b4-49c0-9987-ef1bb6f42b9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "7SEG_L{7SEG}" output
+			(at 148.59 116.84 270)
+			(uuid "f39d8c27-268c-42bf-a4f5-83511a1da5cd")
 			(effects
 				(font
 					(size 1.27 1.27)

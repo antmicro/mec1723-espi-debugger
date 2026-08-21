@@ -1847,6 +1847,15 @@
 		(uuid "20703904-f647-4c3a-93a8-d1bd756ab2c7")
 	)
 	(bus_entry
+		(at 127 142.24)
+		(size 1.27 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a684f8b-c740-48ee-85eb-6ecce55a76ea")
+	)
+	(bus_entry
 		(at 222.25 58.42)
 		(size 2.54 -2.54)
 		(stroke
@@ -1890,6 +1899,15 @@
 			(type default)
 		)
 		(uuid "a9adc019-d9be-4391-b820-984c58246e93")
+	)
+	(bus_entry
+		(at 127 144.78)
+		(size 1.27 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db234cc4-19c0-4069-a6b9-af0aacbb998e")
 	)
 	(wire
 		(pts
@@ -1943,6 +1961,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 151.13) (xy 146.05 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d6babc1-0f7a-400f-b037-cd8bf1194019")
+	)
+	(wire
+		(pts
 			(xy 172.72 38.1) (xy 172.72 41.91)
 		)
 		(stroke
@@ -1950,6 +1978,16 @@
 			(type default)
 		)
 		(uuid "25c7e594-6d74-4b29-a0bd-32203287713a")
+	)
+	(bus
+		(pts
+			(xy 124.46 139.7) (xy 125.73 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2607760f-62e0-42b3-a12e-b416b1f5c812")
 	)
 	(wire
 		(pts
@@ -2061,6 +2099,16 @@
 		)
 		(uuid "682fc82f-d8a8-4f4b-9651-c702c4e9f745")
 	)
+	(bus
+		(pts
+			(xy 125.73 139.7) (xy 127 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a8b18c-4841-4013-9de7-fe315df00631")
+	)
 	(wire
 		(pts
 			(xy 193.04 38.1) (xy 193.04 41.91)
@@ -2080,6 +2128,16 @@
 			(type default)
 		)
 		(uuid "779629f9-5382-4be9-8162-f09a464dcd93")
+	)
+	(wire
+		(pts
+			(xy 128.27 146.05) (xy 148.59 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78362be5-7f7f-4806-98d5-593773a2f987")
 	)
 	(wire
 		(pts
@@ -2191,6 +2249,16 @@
 		)
 		(uuid "983c8de8-d329-4e13-aecd-b340475efc68")
 	)
+	(bus
+		(pts
+			(xy 127 140.97) (xy 127 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0d6a50-87ea-4c26-bdea-e3f528d3fb4a")
+	)
 	(wire
 		(pts
 			(xy 146.05 127) (xy 148.59 127)
@@ -2201,6 +2269,16 @@
 		)
 		(uuid "9a758bd1-2d47-4994-9acb-109399b88805")
 	)
+	(bus
+		(pts
+			(xy 127 142.24) (xy 127 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb43dac-6683-47a1-bed7-0ec84a731488")
+	)
 	(wire
 		(pts
 			(xy 128.27 121.92) (xy 148.59 121.92)
@@ -2210,6 +2288,16 @@
 			(type default)
 		)
 		(uuid "9eb41547-983b-46bf-a1f5-40d0ce94b730")
+	)
+	(wire
+		(pts
+			(xy 128.27 143.51) (xy 148.59 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1ea0c1-980b-4cb3-82cf-de344b5a8031")
 	)
 	(wire
 		(pts
@@ -2443,6 +2531,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 148.59) (xy 148.59 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f7929a-665f-43e2-b4d3-f5c0be6d2811")
+	)
+	(wire
+		(pts
 			(xy 162.56 46.99) (xy 162.56 66.04)
 		)
 		(stroke
@@ -2491,6 +2589,16 @@
 		)
 		(uuid "fd40fd91-55d1-485f-961b-a5925ef0a957")
 	)
+	(label "EC_UART1.RX"
+		(at 143.51 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c836afe-06a0-4729-9bd8-02fe0dddc90d")
+	)
 	(label "EC_JTAG_TDO"
 		(at 139.7 66.04 0)
 		(effects
@@ -2501,7 +2609,7 @@
 		)
 		(uuid "277cef45-edc7-4cb3-bd05-98ecd217abd9")
 	)
-	(label "EC_UART.TX"
+	(label "EC_UART0.TX"
 		(at 143.51 124.46 180)
 		(effects
 			(font
@@ -2551,6 +2659,16 @@
 		)
 		(uuid "688e4b19-b624-4714-a863-b1e3fc0d05ee")
 	)
+	(label "EC_UART1.TX"
+		(at 143.51 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f56016a-d1d2-45c8-a21e-23496fb015ac")
+	)
 	(label "EC_JTAG_TDO"
 		(at 205.74 60.96 0)
 		(effects
@@ -2561,7 +2679,7 @@
 		)
 		(uuid "b1f96c6d-0092-48f6-aafe-a4eeb733abc5")
 	)
-	(label "EC_UART.RX"
+	(label "EC_UART0.RX"
 		(at 143.51 121.92 180)
 		(effects
 			(font
@@ -2611,7 +2729,7 @@
 		)
 		(uuid "fa5f1fc9-5bf2-4860-a995-a3a69b1daf24")
 	)
-	(hierarchical_label "EC_UART{UART}"
+	(hierarchical_label "EC_UART0{UART}"
 		(shape bidirectional)
 		(at 124.46 118.11 180)
 		(effects
@@ -2621,6 +2739,17 @@
 			(justify right)
 		)
 		(uuid "8acc5789-424a-4b7f-bd6a-7b0703fa8d3d")
+	)
+	(hierarchical_label "EC_UART1{UART}"
+		(shape bidirectional)
+		(at 124.46 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bf7f0ef-715e-484c-a39f-58bf4c67699e")
 	)
 	(hierarchical_label "EC_JTAG{JTAG}"
 		(shape bidirectional)
@@ -4275,6 +4404,150 @@
 		)
 	)
 	(symbol
+		(lib_id "Antmicro Symbols:PinHeader_1x3_P2.54mm_SMD")
+		(at 148.59 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "923e3630-745f-457d-bf27-b71c4772f155")
+		(property "Reference" "J7001"
+			(at 154.94 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PinHeader_1x3_P2.54mm_SMD"
+			(at 168.91 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:PinHeader_1x3_P2.54mm_SMD"
+			(at 168.91 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/527/tsm-2854655.pdf"
+			(at 168.91 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Pin Header, Vertical, 2.54 mm, 1 Rows, 3 Contacts, SMD"
+			(at 168.91 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "TSM-103-01-L-SV"
+			(at 154.94 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 168.91 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 168.91 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 168.91 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "3"
+			(uuid "0ee3fb34-a21c-4852-8d8e-5ef7ffc5022e")
+		)
+		(pin "2"
+			(uuid "f71aa02c-b79f-4970-a40c-d1f7fd7dde39")
+		)
+		(pin "1"
+			(uuid "abfebb55-80ac-4d91-8392-de5a342479e5")
+		)
+		(instances
+			(project "dc-scm-server-integration-espi-adapter"
+				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d8da698-0d26-4a54-ae2a-b123e41282d5"
+					(reference "J7001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 162.56 36.83 0)
 		(unit 1)
@@ -4381,6 +4654,118 @@
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d8da698-0d26-4a54-ae2a-b123e41282d5"
 					(reference "#PWR07002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Antmicro Symbols:GND")
+		(at 146.05 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a81f7443-a2ba-4eac-8e58-5364da7cfac2")
+		(property "Reference" "#PWR07009"
+			(at 154.94 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 154.94 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 154.94 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "94ef4d44-419f-4bb1-9fbb-65597f8eb56c")
+		)
+		(instances
+			(project "dc-scm-server-integration-espi-adapter"
+				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d8da698-0d26-4a54-ae2a-b123e41282d5"
+					(reference "#PWR07009")
 					(unit 1)
 				)
 			)
