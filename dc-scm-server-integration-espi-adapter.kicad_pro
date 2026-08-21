@@ -713,12 +713,108 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IMax",
+          "name": "IMax",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ISat",
+          "name": "ISat",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "License",
+          "name": "License",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max. Curr.",
+          "name": "Max. Curr.",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Val",
+          "name": "Val",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current",
+          "name": "Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Color",
+          "name": "Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Author",
+          "name": "Author",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -935,7 +1031,7 @@
         "uuid": "df391740-647e-4ab6-9dcd-d61184d66fe9"
       }
     ],
-    "used_designators": "SW3003,U1,U7,U2001-2002,U4001-4002,U6009,Q2001-2002,Q4001-4002,TP8-9,TP2001-2002,TP3001-3015,TP4001-4002,R1,R128,R137-140,R167-170,R178-179,R2001-2015,R3007-3036,R4001-4018,R5001-5008,C1-4,C15,C17,C2001-2006,C3018,C4001-4006,C5001-5002,D2001-2005,D4001-4005,#FLG5,#FLG9,#FLG2001-2002,#FLG4001-4002,J1,J10,J14,J17,J3001-3009,J5001-5003,#PWR1-4,#PWR11,#PWR22-23,#PWR26,#PWR29-31,#PWR33-36,#PWR41-43,#PWR51,#PWR70,#PWR72,#PWR74-76,#PWR114,#PWR121,#PWR2001,#PWR2003-2004,#PWR2006-2026,#PWR3021-3040,#PWR4001-4026,#PWR5001-5009,L2001,L4001",
+    "used_designators": "SW3003,U1,U7,U2001-2002,U4001-4002,U6009,Q2001-2002,Q4001-4002,TP8-9,TP2001-2002,TP3001-3015,TP4001-4002,R1,R128,R137-140,R167-170,R178-179,R2001-2015,R3007-3040,R4001-4018,R5001-5008,R5010-5014,C1-4,C15,C17,C2001-2006,C3001,C3014-3019,C4001-4006,C5001-5002,D2001-2005,D3001,D4001-4005,#FLG5,#FLG9,#FLG2001-2002,#FLG4001-4002,J1,J10,J14,J17,J3001-3009,J5001-5003,#PWR1-4,#PWR11,#PWR22-23,#PWR26,#PWR29-31,#PWR33-36,#PWR41-43,#PWR51,#PWR70,#PWR72,#PWR74-76,#PWR114,#PWR121,#PWR2001,#PWR2003-2004,#PWR2006-2026,#PWR3021-3044,#PWR4001-4026,#PWR5001-5009,L2001,L4001",
     "variants": []
   },
   "sheets": [
