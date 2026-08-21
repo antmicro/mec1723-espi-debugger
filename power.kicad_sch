@@ -12608,7 +12608,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "dff43775-b7d4-4dc2-bb46-8e8732ce4cc7")
 		(property "Reference" "R4003"
 			(at 111.76 62.23 0)
@@ -13399,7 +13399,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "eaddf679-b670-4335-92b8-df3df010ed10")
 		(property "Reference" "R4005"
 			(at 125.73 66.04 90)
