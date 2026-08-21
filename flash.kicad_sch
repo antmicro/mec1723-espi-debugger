@@ -2534,6 +2534,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Layout guides are different than eval design - check it"
+		(exclude_from_sim no)
+		(at 78.994 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "107b4488-083f-4d14-9b44-5fd5880e7b22")
+	)
+	(text "Serial resistors?"
+		(exclude_from_sim no)
+		(at 59.436 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d85b461-2ecc-4870-bd54-8b30391670cb")
+	)
 	(text "Check pinout!"
 		(exclude_from_sim no)
 		(at 235.966 115.062 0)

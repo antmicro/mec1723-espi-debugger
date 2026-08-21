@@ -10316,18 +10316,6 @@
 		(layer "Edge.Cuts")
 		(uuid "911f9f86-4dc0-4438-b0d8-d3d5018971c1")
 	)
-	(gr_text "Board outline from debug interposer"
-		(at 102.99 56.37 0)
-		(layer "Dwgs.User")
-		(uuid "50024f93-ced5-47de-9b35-a9c8bcde031a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(table
 		(column_count 7)
 		(uuid "e333c691-ed77-4b48-96e2-ebe741b89a53")

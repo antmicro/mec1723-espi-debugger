@@ -7395,16 +7395,6 @@
 		)
 		(uuid "b0d0bc11-94a9-4d92-83ca-136330d4ffe6")
 	)
-	(text "Check if needed"
-		(exclude_from_sim no)
-		(at 272.542 30.988 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1fc87fe8-9b4a-49fe-8262-94cb12fd7bee")
-	)
 	(text "Boot Source Select Strap:\n- 1(R5010 not mounted)=Use the shared \nSPI pins for boot\n\n- 0(R5010 mounted)=Use the eSPI \nFlash Channel for boot"
 		(exclude_from_sim no)
 		(at 279.4 80.518 0)
@@ -10122,16 +10112,6 @@
 			(type default)
 		)
 		(uuid "71e836ff-6e81-4374-a629-442fdc923249")
-	)
-	(wire
-		(pts
-			(xy 354.33 40.64) (xy 364.49 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "721d7e58-dca7-4799-8711-36c6123f01ee")
 	)
 	(wire
 		(pts
@@ -13043,7 +13023,7 @@
 		)
 		(uuid "2a1597a7-9806-402e-9f04-8118f865fe63")
 	)
-	(label "GPIO114"
+	(label "GPIO115"
 		(at 354.33 173.99 0)
 		(effects
 			(font
@@ -13203,6 +13183,16 @@
 		)
 		(uuid "37292c90-2f97-4e27-a860-ab0d136957ed")
 	)
+	(label "GPIO054"
+		(at 374.65 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a2a49cb-46a2-44c1-994c-7ad69b76adc6")
+	)
 	(label "EC_QSPI.SCK"
 		(at 294.64 62.23 0)
 		(effects
@@ -13323,16 +13313,6 @@
 		)
 		(uuid "46eb41f4-7dda-4490-a6a0-91f097a23d5a")
 	)
-	(label "~{VCI_IN2}"
-		(at 374.65 228.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "471d696e-efd4-4fd0-9d1d-2fcd834ce5fb")
-	)
 	(label "EC_QSPI.IO3"
 		(at 294.64 54.61 0)
 		(effects
@@ -13383,7 +13363,7 @@
 		)
 		(uuid "4d095844-29c4-48bf-a72e-dbe6b64d4bee")
 	)
-	(label "GPIO114"
+	(label "GPIO115"
 		(at 261.62 191.77 0)
 		(effects
 			(font
@@ -14543,16 +14523,6 @@
 		)
 		(uuid "d7f5dd47-d82d-47fa-8921-134729780865")
 	)
-	(label "GPIO054"
-		(at 354.33 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d80d6ee9-159f-44ba-86a4-aeaea9a680bb")
-	)
 	(label "GPIO013"
 		(at 354.33 123.19 0)
 		(effects
@@ -14683,16 +14653,6 @@
 		)
 		(uuid "e14a359c-16c4-4307-96e9-befbfd9be2b0")
 	)
-	(label "~{VCI_IN1}"
-		(at 374.65 226.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1dae5bd-e411-4577-aa10-df5638c5b23f")
-	)
 	(label "GPIO131"
 		(at 374.65 171.45 0)
 		(effects
@@ -14762,6 +14722,16 @@
 			(justify left bottom)
 		)
 		(uuid "e963df4e-2b44-4bcd-b776-315ffd564ed8")
+	)
+	(label "GPIO000"
+		(at 374.65 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea287886-bddf-47f8-b7a3-4fba55e897b8")
 	)
 	(label "GPIO112"
 		(at 354.33 166.37 0)
