@@ -1170,7 +1170,7 @@
 		(dnp no)
 		(uuid "0f0227c0-1f68-4779-957f-202c75eb0a9c")
 		(property "Reference" "J2001"
-			(at 180.086 113.03 0)
+			(at 149.606 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1233,7 +1233,7 @@
 			)
 		)
 		(property "MPN" "TSW-106-08-G-D-RA"
-			(at 180.086 115.57 0)
+			(at 149.606 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
