@@ -4209,7 +4209,7 @@
 		(uuid "08a77342-980a-40a7-aaa4-6f0c371e7082")
 		(at 61.0867 99.343013 -90)
 		(property "Reference" "U5001"
-			(at 1.69 6.355 90)
+			(at 1.69 6.5867 90)
 			(layer "F.SilkS")
 			(uuid "39eee71e-7c36-4395-9a82-5104876909eb")
 			(effects
@@ -8373,7 +8373,7 @@
 		(descr "Capacitor SMD 0603, IPC-7351 Density Level A")
 		(tags "Capacitor 0603")
 		(property "Reference" "C4003"
-			(at -2.25 -2.35 90)
+			(at -1.35 -2.75 90)
 			(layer "F.SilkS")
 			(uuid "8ac9d337-2c1a-4620-b51e-1c9fb4236591")
 			(effects
@@ -21556,7 +21556,7 @@
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R4004"
-			(at 4.65 -0.39 90)
+			(at 4.55 -0.39 90)
 			(layer "F.SilkS")
 			(uuid "f99be817-2cb1-47c5-9dd7-bbff480b261a")
 			(effects
@@ -23345,12 +23345,12 @@
 	(footprint "antmicro-footprints:TP_SMD_1mm"
 		(layer "F.Cu")
 		(uuid "17d43040-f557-44c3-9bac-a92ec66cfab0")
-		(at 37.8 82.3)
+		(at 66.6 69)
 		(property "Reference" "TP2008"
 			(at 0 -0.731898 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2ee1296c-e413-410f-a5a0-a6af111d4056")
+			(uuid "96683eaa-33af-4c96-947b-e39d7675c06e")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -23362,7 +23362,7 @@
 		(property "Value" "TP_1mm_SMD"
 			(at 0 1.4 0)
 			(layer "F.Fab")
-			(uuid "d525681d-8e9d-47d8-8468-5378f991a90f")
+			(uuid "4a677d52-c929-4d61-937c-e5bb81b715c0")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -23375,7 +23375,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c172d61d-78c6-4a27-a174-ba649e1ee8f3")
+			(uuid "96577326-1c2f-403b-8de6-7446d121d5b6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23387,7 +23387,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "afed982b-3baf-4211-a4af-5b6c8a64b869")
+			(uuid "d90b0ae1-ca1c-412b-b833-86a1ff7f6b9b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38983,7 +38983,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "1f7ae881-6931-4871-ad0d-e585220cb103")
-		(at 70.9 69.7 90)
+		(at 70.9 70.6 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R2005"
@@ -50541,12 +50541,12 @@
 	(footprint "antmicro-footprints:TP_SMD_1mm"
 		(layer "F.Cu")
 		(uuid "2888a860-94cd-4908-9605-f636b16abfdb")
-		(at 36 79.2)
+		(at 66.6 67.8)
 		(property "Reference" "TP2011"
 			(at 0 -0.731898 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "dfdbf939-7c54-48aa-829b-43abed46fa5d")
+			(uuid "e6aa3617-5f99-436a-84cd-70afd8ad51fd")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -50558,7 +50558,7 @@
 		(property "Value" "TP_1mm_SMD"
 			(at 0 1.4 0)
 			(layer "F.Fab")
-			(uuid "c409b69d-21f0-4757-bdc6-a0f441e63ad5")
+			(uuid "c85fcd3f-1f85-4935-a239-64cda6b27a35")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -50571,7 +50571,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70ed4d80-3046-4544-a646-b999207a7531")
+			(uuid "2733ea0f-0287-44ae-8ab8-6df1436a4d81")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50583,7 +50583,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad7d3b09-f8a4-488a-949b-c8457b4ec13c")
+			(uuid "bfa5fb0f-a8b8-4fbe-8111-7c4d9bf78836")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50728,12 +50728,12 @@
 	(footprint "antmicro-footprints:TP_SMD_1mm"
 		(layer "F.Cu")
 		(uuid "2d2d87ef-1b7f-4193-88c2-336a13565d3a")
-		(at 36.2 85.1)
+		(at 66.6 62.8)
 		(property "Reference" "TP2005"
 			(at 0 -0.731898 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8f2ece99-18f2-4dbf-bff0-7021e23cd84b")
+			(uuid "6e5a4f3f-9fd8-48ae-a94d-96edd1c6e6f4")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -50745,7 +50745,7 @@
 		(property "Value" "TP_1mm_SMD"
 			(at 0 1.4 0)
 			(layer "F.Fab")
-			(uuid "67b45f63-ed80-46fa-a48f-bd472012c846")
+			(uuid "1a441006-a1c7-428b-9ea9-cb733e9e258a")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -50758,7 +50758,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "27b0ec97-4d38-43af-94a2-8df0bd5ab448")
+			(uuid "d6aa6096-2ac7-4207-aab6-711252b92152")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50770,7 +50770,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca7ac2b3-aebd-4ef5-a840-6bd4cdf542b5")
+			(uuid "60744d7c-bd3a-4c53-917c-c02cb596daab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57895,7 +57895,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "3242d8cd-8b79-4d35-bd95-75fa9cf655c6")
-		(at 67.9 69.7 -90)
+		(at 67.9 70.6 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R2001"
@@ -58264,12 +58264,12 @@
 	(footprint "antmicro-footprints:TP_SMD_1mm"
 		(layer "F.Cu")
 		(uuid "340f420b-c3e8-42ca-a551-a8e9ce904cc3")
-		(at 39 79.2)
+		(at 66.6 66.6)
 		(property "Reference" "TP2006"
 			(at 0 -0.731898 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "273162da-426d-4246-8818-f5a4be15424c")
+			(uuid "49c6656f-d2b9-48c8-90f1-447b5ac1f279")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -58281,7 +58281,7 @@
 		(property "Value" "TP_1mm_SMD"
 			(at 0 1.4 0)
 			(layer "F.Fab")
-			(uuid "9ddc57fe-d3de-44dd-a619-2f4fcb766c8c")
+			(uuid "68cab996-5238-44fa-aae6-be0359baf23c")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -58294,7 +58294,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24a0a4f9-bac7-4147-893d-0778953d8c47")
+			(uuid "3e9a6d05-58f1-4bd1-bfe5-39b3326a352d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58306,7 +58306,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6869658e-ea17-410a-891c-17aa390af4c5")
+			(uuid "b760d9ed-6557-49ff-b10c-13c010698130")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65428,7 +65428,7 @@
 	(footprint "antmicro-footprints:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
 		(layer "F.Cu")
 		(uuid "3caca4c6-c8b8-466b-8d3a-663cbf56f2d6")
-		(at 62.3817 112.733013 180)
+		(at 62.5 113.6 180)
 		(property "Reference" "J5001"
 			(at -1.25 -2.7 180)
 			(layer "F.SilkS")
@@ -65887,7 +65887,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "3e7957fb-354c-47b5-9e8e-83e6a1a8ac1b")
-		(at 69.9 69.72 90)
+		(at 69.9 70.6 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R2007"
@@ -66260,7 +66260,7 @@
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R4018"
-			(at -4.656213 0.360467 90)
+			(at -4.45 0.360467 90)
 			(layer "F.SilkS")
 			(uuid "df39154b-e671-44fa-834a-731bb29b5de3")
 			(effects
@@ -89720,12 +89720,12 @@
 	(footprint "antmicro-footprints:TP_SMD_1mm"
 		(layer "F.Cu")
 		(uuid "5102f0c9-38bd-495c-9fb6-6aefbfc58071")
-		(at 39.6 82.9)
+		(at 66.6 60.1)
 		(property "Reference" "TP2010"
 			(at 0 -0.731898 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "18569408-56b4-4b57-8995-1d6b43350480")
+			(uuid "26cfb0ad-0978-49b5-9181-a57d6d90d400")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -89737,7 +89737,7 @@
 		(property "Value" "TP_1mm_SMD"
 			(at 0 1.4 0)
 			(layer "F.Fab")
-			(uuid "251ff701-6f6c-4279-9183-2abc8534be40")
+			(uuid "d28c4064-d319-4806-807c-a7fdd97c3798")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -89750,7 +89750,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3c8e324-b4d9-4e9a-93bd-b3f64300cc68")
+			(uuid "fc1366a3-19a3-44fc-bbd2-fd0965556f05")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -89762,7 +89762,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b3dbbc12-49b2-4ea5-ad26-5c2a49e2178e")
+			(uuid "f2060cb1-c812-435f-bf85-b67147050025")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102447,12 +102447,12 @@
 	(footprint "antmicro-footprints:TP_SMD_1mm"
 		(layer "F.Cu")
 		(uuid "61bab7d6-3ce0-46ac-b5e0-6102ca22db8b")
-		(at 40.5 79.2)
+		(at 66.6 65.4)
 		(property "Reference" "TP2004"
 			(at 0 -0.731898 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8822023e-f928-44fd-afb6-79f468c909d2")
+			(uuid "13b0ad62-7d6f-438e-98d1-935b6f4d646d")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -102464,7 +102464,7 @@
 		(property "Value" "TP_1mm_SMD"
 			(at 0 1.4 0)
 			(layer "F.Fab")
-			(uuid "1fe091ac-9ff6-4b80-ae21-f94eae272a17")
+			(uuid "06b97fd4-2d20-40c3-87d6-1de122a8de19")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -102477,7 +102477,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ae6b75d-41b4-42f1-817d-d89f1af48542")
+			(uuid "8caa9579-24c1-4c2a-801e-a70dc45cf272")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102489,7 +102489,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed4380a0-2ed6-4bc0-8198-eaf3c3536524")
+			(uuid "9b19c959-5ff5-46d5-96b4-82d1f40b38df")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133105,7 +133105,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "79c0e0d5-f160-4712-b1e8-0113fbc3139c")
-		(at 72.9 69.7 90)
+		(at 72.9 70.6 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R2006"
@@ -202892,7 +202892,7 @@
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R4016"
-			(at -4.676213 0.362467 90)
+			(at -4.45 0.362467 90)
 			(layer "F.SilkS")
 			(uuid "47f1dd09-16be-437c-9c82-877aeb8171dc")
 			(effects
@@ -206475,7 +206475,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b4dc2e76-e90e-4e11-a90f-d197f275a64c")
-		(at 73.9 69.7 90)
+		(at 73.9 70.6 90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R2008"
@@ -206844,12 +206844,12 @@
 	(footprint "antmicro-footprints:TP_SMD_1mm"
 		(layer "F.Cu")
 		(uuid "b5b09942-c996-456b-b386-3744c5a10b17")
-		(at 37.5 79.2)
+		(at 66.6 61.4)
 		(property "Reference" "TP2007"
 			(at 0 -0.731898 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "96d13bd8-a7a0-4379-95d5-993f1315a7da")
+			(uuid "b60ef082-35b7-41d8-8524-26acc7fed47e")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -206861,7 +206861,7 @@
 		(property "Value" "TP_1mm_SMD"
 			(at 0 1.4 0)
 			(layer "F.Fab")
-			(uuid "8283822c-fe03-49c5-9bcb-e1251e798dea")
+			(uuid "f5ac6e4a-abbb-42cc-81a1-ce22118da70e")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -206874,7 +206874,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75cc8390-28cb-4214-9c1f-8c903c4fca3b")
+			(uuid "4160641f-9b82-4ba0-bb65-e54e15cfb6d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -206886,7 +206886,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4300692c-401a-42e1-b8e3-3d33251610e9")
+			(uuid "8a2b888c-ee1d-4181-8a3d-6b76c0b063a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -207035,7 +207035,7 @@
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R4017"
-			(at 1.156213 0.339533 90)
+			(at 0.95 0.47 90)
 			(layer "F.SilkS")
 			(uuid "86b3aa08-e94c-48c3-9053-09f85dc27373")
 			(effects
@@ -244572,7 +244572,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "cf155f38-cd65-4a3e-a92c-283afd9e9974")
-		(at 71.9 69.7 -90)
+		(at 71.9 70.6 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R2002"
@@ -245734,7 +245734,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d1741c51-38f6-4861-b5a3-b4f2fe16f545")
-		(at 68.9 69.7 -90)
+		(at 68.9 70.6 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R2004"
@@ -246107,7 +246107,7 @@
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R5005"
-			(at 1 0.1 0)
+			(at 1.9867 0.643013 90)
 			(layer "F.SilkS")
 			(uuid "05f3e9dc-961d-408d-bbca-04780e722533")
 			(effects
@@ -258561,7 +258561,7 @@
 		(descr "Capacitor SMD 0402")
 		(tags "capacitor SMD 0402")
 		(property "Reference" "C5002"
-			(at 3.05 -1.79 0)
+			(at 1.6067 -1.636987 0)
 			(layer "F.SilkS")
 			(uuid "63fd5399-e9bf-42f5-aa37-43d58acbacd0")
 			(effects
@@ -277862,7 +277862,7 @@
 		(at 89.45 63.665 180)
 		(descr "Footprint based on: https://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf")
 		(property "Reference" "J2001"
-			(at 18.15 2.965 0)
+			(at -1.45 -4.935 0)
 			(layer "F.SilkS")
 			(uuid "cff22d59-492b-4639-b9d5-aa35bd9bc4a9")
 			(effects
@@ -281232,7 +281232,7 @@
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "eb5e4291-4928-43df-a169-16948c0fbb24")
-		(at 74.9 69.7 -90)
+		(at 74.9 70.6 -90)
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R2003"
@@ -282526,12 +282526,12 @@
 	(footprint "antmicro-footprints:TP_SMD_1mm"
 		(layer "F.Cu")
 		(uuid "f385f95f-a603-43d5-ae86-6316351a849e")
-		(at 39.7 84.9)
+		(at 66.6 64.1)
 		(property "Reference" "TP2009"
 			(at -1.6 -1.4 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a749edcf-0ee7-4cc8-909e-1e7487660ca1")
+			(uuid "b2928e20-12ae-4e0d-a45f-ab9f7ca3355e")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -282543,7 +282543,7 @@
 		(property "Value" "TP_1mm_SMD"
 			(at 0 1.4 0)
 			(layer "F.Fab")
-			(uuid "bac6833f-77de-4859-9a3f-a652557dfb08")
+			(uuid "7645b639-e6f6-4e3a-b3c1-59da5fab8796")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -282556,7 +282556,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f4f3fed-afa4-42bf-bac3-7a5dd80f0b3c")
+			(uuid "1820ef73-679b-40fb-97b7-9877cfb9fddc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282568,7 +282568,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "472ba091-4ec2-4402-9132-59ba2d93d426")
+			(uuid "bb2e723a-14e0-4487-858b-3e01a681831c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469263,8 +469263,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "eSPI.IO0"
-		(at 55.8717 110.573013 0)
+	(gr_text "qSPI.IO0"
+		(at 55.8717 110.5 0)
 		(layer "F.SilkS" knockout)
 		(uuid "6fb3418d-d6e7-4971-9bda-012c9c0f2a0e")
 		(effects
@@ -469275,8 +469275,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "eSPI.IO2"
-		(at 57.2567 107.593013 0)
+	(gr_text "qSPI.IO2"
+		(at 57.2567 107.5 0)
 		(layer "F.SilkS" knockout)
 		(uuid "a94697ec-bbae-49c7-a942-3f107c298bed")
 		(effects
@@ -469299,7 +469299,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "eSPI.~{CS0}"
+	(gr_text "qSPI.~{CS0}"
 		(at 63.1017 110.563013 0)
 		(layer "F.SilkS" knockout)
 		(uuid "de450de9-b082-411b-9c27-2c8bdacdb31e")
@@ -469315,6 +469315,102 @@
 		(at 67.2 87.7 0)
 		(layer "F.SilkS" knockout)
 		(uuid "c34c965a-2fcb-4fe9-ad18-8ea9a303efc6")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "qSPI.IO3"
+		(at 67.3 60.4 0)
+		(layer "F.SilkS" knockout)
+		(uuid "88aa076e-e339-47fd-be07-82c0e8e7b705")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "qSPI.IO0"
+		(at 67.3 61.7 0)
+		(layer "F.SilkS" knockout)
+		(uuid "4f15d08a-9e40-41db-a601-231a83972a1b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "qSPI.~{CS0}"
+		(at 67.3 63.2 0)
+		(layer "F.SilkS" knockout)
+		(uuid "1ae3e6df-150c-48a2-b8d8-dfbe184fdd33")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "qSPI.IO2"
+		(at 67.3 64.5 0)
+		(layer "F.SilkS" knockout)
+		(uuid "1c632461-d716-453c-9c75-e3d400f27307")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "qSPI.SCK"
+		(at 67.3 65.8 0)
+		(layer "F.SilkS" knockout)
+		(uuid "217fb427-c16b-4170-90cb-391179a487d7")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "eSPI.IO1"
+		(at 67.3 67.1 0)
+		(layer "F.SilkS" knockout)
+		(uuid "945123b4-4d1e-472f-8825-541c5d5c60fe")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "eSPI.IO1"
+		(at 67.3 68.2 0)
+		(layer "F.SilkS" knockout)
+		(uuid "8fa07f99-bac1-4d55-ae72-82b172305fed")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "eSPI.IO1"
+		(at 67.3 69.3 0)
+		(layer "F.SilkS" knockout)
+		(uuid "9235ae72-ed31-4b1a-9d25-654a4b92198c")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -469407,7 +469503,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "eSPI.IO1"
+	(gr_text "qSPI.IO1"
 		(at 55.2467 100.073013 90)
 		(layer "F.SilkS" knockout)
 		(uuid "84bb2f36-741f-4a6e-b6ab-4f75e0e20fe2")
@@ -469419,7 +469515,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "eSPI.SCK"
+	(gr_text "qSPI.SCK"
 		(at 68.1667 103.313013 90)
 		(layer "F.SilkS" knockout)
 		(uuid "0ac11d60-c647-4e0e-9f77-b29e95a3a2b4")
@@ -469431,7 +469527,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "eSPI.IO3"
+	(gr_text "qSPI.IO3"
 		(at 68.2367 94.073013 90)
 		(layer "F.SilkS" knockout)
 		(uuid "b28bdcaa-3596-4898-828a-d11d27c912d8")
