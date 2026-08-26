@@ -11,221 +11,6 @@
 		(company "Antmicro")
 	)
 	(lib_symbols
-		(symbol "Antmicro Symbols:R_1k_0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 20.32 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R_1k_0402"
-				(at 20.32 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-				(at 20.32 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-				(at 20.32 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 20.32 -30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "MPN" "CR0402-FX-1001GLF"
-				(at 20.32 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Bourns"
-				(at 20.32 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Val" "1k"
-				(at 20.32 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 20.32 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE, RoHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_1k_0402_0_1"
-				(rectangle
-					(start 0.635 0.889)
-					(end 4.445 -0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1k_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroCapacitors0402:C_100n_50V_X8L_0402"
 			(pin_numbers
 				(hide yes)
@@ -3369,6 +3154,221 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroResistors0402:R_1k_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 20.32 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_1k_0402"
+				(at 20.32 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+				(at 20.32 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+				(at 20.32 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+				(at 20.32 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "MPN" "CR0402-FX-1001GLF"
+				(at 20.32 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 20.32 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Val" "1k"
+				(at 20.32 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 20.32 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE, RoHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_1k_0402_0_1"
+				(rectangle
+					(start 0.635 0.889)
+					(end 4.445 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1k_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroResistors0402:R_31k6_0402"
 			(pin_numbers
 				(hide yes)
@@ -6133,7 +6133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0222b2be-75c9-4d58-b116-07cd80e53f41")
-		(property "Reference" "#PWR04009"
+		(property "Reference" "#PWR4009"
 			(at 248.92 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6227,7 +6227,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04009")
+					(reference "#PWR4009")
 					(unit 1)
 				)
 			)
@@ -6545,7 +6545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16fc21f8-4a25-483e-9a16-bdc873deb88f")
-		(property "Reference" "#PWR04008"
+		(property "Reference" "#PWR4008"
 			(at 140.97 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6559,7 +6559,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 74.93 0)
+			(at 130.048 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6567,6 +6567,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -6639,7 +6640,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04008")
+					(reference "#PWR4008")
 					(unit 1)
 				)
 			)
@@ -6978,7 +6979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "226abd42-a6cc-47b0-9fcc-c20f09f1f00c")
-		(property "Reference" "#PWR04007"
+		(property "Reference" "#PWR4007"
 			(at 226.06 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7072,14 +7073,14 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04007")
+					(reference "#PWR4007")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:R_1k_0402")
+		(lib_id "antmicroResistors0402:R_1k_0402")
 		(at 217.17 146.05 90)
 		(unit 1)
 		(body_style 1)
@@ -7256,7 +7257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "273e945b-6bb3-4dd6-bf82-778e4dd15896")
-		(property "Reference" "#PWR04003"
+		(property "Reference" "#PWR4003"
 			(at 55.88 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7350,7 +7351,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04003")
+					(reference "#PWR4003")
 					(unit 1)
 				)
 			)
@@ -7368,7 +7369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29d448a4-4c58-43c5-b51a-f6cb7d9e490e")
-		(property "Reference" "#PWR04001"
+		(property "Reference" "#PWR4001"
 			(at 96.52 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7462,7 +7463,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04001")
+					(reference "#PWR4001")
 					(unit 1)
 				)
 			)
@@ -8124,7 +8125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49a71cee-c5eb-4709-b7e3-db41d9b0cb63")
-		(property "Reference" "#PWR04002"
+		(property "Reference" "#PWR4002"
 			(at 205.74 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -8218,7 +8219,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04002")
+					(reference "#PWR4002")
 					(unit 1)
 				)
 			)
@@ -8926,7 +8927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5de8ab34-5ebf-4d9c-9ec8-cae380db41b0")
-		(property "Reference" "#PWR04020"
+		(property "Reference" "#PWR4020"
 			(at 66.04 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8940,7 +8941,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 143.51 0)
+			(at 54.864 144.526 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8948,6 +8949,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -8977,7 +8979,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 139.7 0)
+			(at 66.04 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8985,6 +8987,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Author" "Antmicro"
@@ -9019,7 +9022,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04020")
+					(reference "#PWR4020")
 					(unit 1)
 				)
 			)
@@ -9037,7 +9040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60ac739e-4ea4-4a3d-9509-53e214cef0f6")
-		(property "Reference" "#PWR04006"
+		(property "Reference" "#PWR4006"
 			(at 232.41 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9131,7 +9134,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04006")
+					(reference "#PWR4006")
 					(unit 1)
 				)
 			)
@@ -9313,7 +9316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66fd5681-9cba-4b56-a7da-45074695c4ab")
-		(property "Reference" "#PWR04018"
+		(property "Reference" "#PWR4018"
 			(at 233.68 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9407,14 +9410,14 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04018")
+					(reference "#PWR4018")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:R_1k_0402")
+		(lib_id "antmicroResistors0402:R_1k_0402")
 		(at 246.38 133.35 90)
 		(unit 1)
 		(body_style 1)
@@ -9781,7 +9784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8292cc9b-b3e3-429d-9683-5be6cc44f0c3")
-		(property "Reference" "#PWR04024"
+		(property "Reference" "#PWR4024"
 			(at 130.81 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9875,7 +9878,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04024")
+					(reference "#PWR4024")
 					(unit 1)
 				)
 			)
@@ -10031,7 +10034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ba321c4-2aef-42f7-ad79-464b2af93952")
-		(property "Reference" "#PWR04025"
+		(property "Reference" "#PWR4025"
 			(at 66.04 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -10045,7 +10048,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 162.56 0)
+			(at 55.118 163.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10053,6 +10056,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -10125,7 +10129,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04025")
+					(reference "#PWR4025")
 					(unit 1)
 				)
 			)
@@ -10486,7 +10490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99301c07-b693-4be1-b686-ea6c09c2853e")
-		(property "Reference" "#PWR04019"
+		(property "Reference" "#PWR4019"
 			(at 72.39 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10580,7 +10584,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04019")
+					(reference "#PWR4019")
 					(unit 1)
 				)
 			)
@@ -10763,7 +10767,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a30babc3-fe5c-4b29-8ce4-95708e3a3341")
-		(property "Reference" "#FLG04002"
+		(property "Reference" "#FLG4002"
 			(at 124.46 141.605 0)
 			(hide yes)
 			(show_name no)
@@ -10825,7 +10829,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#FLG04002")
+					(reference "#FLG4002")
 					(unit 1)
 				)
 			)
@@ -10843,7 +10847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3c45d8a-03ee-41c1-9a33-ee4333666d51")
-		(property "Reference" "#FLG04001"
+		(property "Reference" "#FLG4001"
 			(at 227.33 51.435 0)
 			(hide yes)
 			(show_name no)
@@ -10904,7 +10908,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#FLG04001")
+					(reference "#FLG4001")
 					(unit 1)
 				)
 			)
@@ -10922,7 +10926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3f80783-5d13-429c-a64f-c53a47755ae2")
-		(property "Reference" "#PWR04017"
+		(property "Reference" "#PWR4017"
 			(at 210.82 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11016,7 +11020,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04017")
+					(reference "#PWR4017")
 					(unit 1)
 				)
 			)
@@ -11187,7 +11191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb193bb9-abee-44f2-84c5-a9be1ea7f185")
-		(property "Reference" "#PWR04012"
+		(property "Reference" "#PWR4012"
 			(at 190.5 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11281,7 +11285,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04012")
+					(reference "#PWR4012")
 					(unit 1)
 				)
 			)
@@ -11299,7 +11303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c23cdac5-5b47-4ea2-8a4e-a013c32d1b30")
-		(property "Reference" "#PWR04014"
+		(property "Reference" "#PWR4014"
 			(at 203.2 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11393,7 +11397,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04014")
+					(reference "#PWR4014")
 					(unit 1)
 				)
 			)
@@ -11574,7 +11578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbd5feca-7266-416a-a7c8-d10d2dea60f3")
-		(property "Reference" "#PWR04010"
+		(property "Reference" "#PWR4010"
 			(at 261.62 127 0)
 			(hide yes)
 			(show_name no)
@@ -11668,7 +11672,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04010")
+					(reference "#PWR4010")
 					(unit 1)
 				)
 			)
@@ -11835,7 +11839,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1fc7512-6648-4777-91d4-25e3d0c948ac")
-		(property "Reference" "#PWR04022"
+		(property "Reference" "#PWR4022"
 			(at 99.06 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -11849,7 +11853,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 168.91 0)
+			(at 88.138 169.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11857,6 +11861,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -11886,7 +11891,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 165.1 0)
+			(at 99.06 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11894,6 +11899,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Author" "Antmicro"
@@ -11928,7 +11934,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04022")
+					(reference "#PWR4022")
 					(unit 1)
 				)
 			)
@@ -11945,7 +11951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5010fc5-64ca-4023-86eb-45d9e4680506")
-		(property "Reference" "#PWR04005"
+		(property "Reference" "#PWR4005"
 			(at 133.35 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -11959,7 +11965,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 74.93 0)
+			(at 122.428 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11967,6 +11973,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -12039,7 +12046,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04005")
+					(reference "#PWR4005")
 					(unit 1)
 				)
 			)
@@ -12056,7 +12063,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d70bf367-09e1-495a-84db-0bd9d14f2ede")
-		(property "Reference" "#PWR04021"
+		(property "Reference" "#PWR4021"
 			(at 72.39 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -12070,7 +12077,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 157.48 0)
+			(at 61.976 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12078,6 +12085,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -12107,7 +12115,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 153.67 0)
+			(at 72.39 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12115,6 +12123,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Author" "Antmicro"
@@ -12149,7 +12158,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04021")
+					(reference "#PWR4021")
 					(unit 1)
 				)
 			)
@@ -12499,7 +12508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de119a1c-ac47-4a2e-a6f0-639a6af51528")
-		(property "Reference" "#PWR04011"
+		(property "Reference" "#PWR4011"
 			(at 255.27 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12593,7 +12602,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04011")
+					(reference "#PWR4011")
 					(unit 1)
 				)
 			)
@@ -13125,7 +13134,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7fb208d-c176-44ac-981e-2e956602b69c")
-		(property "Reference" "#PWR04023"
+		(property "Reference" "#PWR4023"
 			(at 110.49 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -13139,7 +13148,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 156.21 0)
+			(at 99.568 157.226 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13147,6 +13156,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -13176,7 +13186,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 152.4 0)
+			(at 110.49 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13184,6 +13194,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Author" "Antmicro"
@@ -13218,7 +13229,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/1d07191d-71e0-43c8-9a4f-6404f7e36093"
-					(reference "#PWR04023")
+					(reference "#PWR4023")
 					(unit 1)
 				)
 			)

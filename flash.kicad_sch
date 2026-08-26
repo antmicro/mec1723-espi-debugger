@@ -11,8 +11,7 @@
 		(company "Antmicro")
 	)
 	(lib_symbols
-		(symbol "Antmicro Symbols:GND"
-			(power global)
+		(symbol "antmicroCapacitors0402:C_100n_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -24,8 +23,20 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 8.89 -2.54 0)
+			(property "Reference" "C"
+				(at 20.32 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_100n_0402"
+				(at 20.32 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -37,20 +48,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "GND"
-				(at 8.89 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 8.89 -7.62 0)
+			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+				(at 20.32 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -62,8 +61,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" ""
-				(at 8.89 -12.7 0)
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+				(at 20.32 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -75,8 +74,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" ""
-				(at 8.89 -15.24 0)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+				(at 20.32 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -87,8 +86,21 @@
 					(justify left bottom)
 				)
 			)
-			(property "Author" "Antmicro"
-				(at 8.89 -7.62 0)
+			(property "MPN" "GRM155R61H104KE14D"
+				(at 20.32 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 20.32 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -101,7 +113,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 8.89 -10.16 0)
+				(at 20.32 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -113,23 +125,97 @@
 					(justify left bottom)
 				)
 			)
-			(symbol "GND_1_1"
+			(property "Author" "Antmicro"
+				(at 20.32 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Val" "100n"
+				(at 20.32 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 20.32 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Dielectric" "X5R"
+				(at 20.32 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC, RoHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_100n_0402_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy 2.032 -1.524) (xy 2.032 1.524)
 					)
 					(stroke
-						(width 0)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "GND"
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_100n_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -144,10 +230,28 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Antmicro Symbols:MT25QU01GBBB8_SOIC"
+		(symbol "antmicroMemory:MT25QU01GBBB8_SOIC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -587,7 +691,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Antmicro Symbols:R_0R_0402"
+		(symbol "antmicroResistors0402:R_0R_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -815,7 +919,222 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Antmicro Symbols:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
+		(symbol "antmicroResistors0402:R_10k_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 20.32 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_10k_0402"
+				(at 20.32 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+				(at 20.32 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+				(at 20.32 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+				(at 20.32 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "MPN" "CR0402-FX-1002GLF"
+				(at 20.32 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 20.32 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Val" "10k"
+				(at 20.32 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 20.32 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE, RoHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_10k_0402_0_1"
+				(rectangle
+					(start 0.635 0.889)
+					(end 4.445 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_10k_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicroTestPoints:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -1339,701 +1658,6 @@
 					(alternate "JTAG_~{RESET}" passive line)
 					(alternate "SPI_NC" passive line)
 					(alternate "SWD_NC" passive line)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Capacitors0402:C_100n_0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 20.32 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_100n_0402"
-				(at 20.32 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-				(at 20.32 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-				(at 20.32 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-				(at 20.32 -33.02 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "MPN" "GRM155R61H104KE14D"
-				(at 20.32 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 20.32 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Val" "100n"
-				(at 20.32 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 20.32 -27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Dielectric" "X5R"
-				(at 20.32 -30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC, RoHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_100n_0402_0_1"
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 3.048 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_100n_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "antmicroCapacitors0402:C_100n_0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 20.32 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_100n_0402"
-				(at 20.32 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-				(at 20.32 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-				(at 20.32 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-				(at 20.32 -33.02 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "MPN" "GRM155R61H104KE14D"
-				(at 20.32 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 20.32 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Val" "100n"
-				(at 20.32 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 20.32 -27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Dielectric" "X5R"
-				(at 20.32 -30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC, RoHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_100n_0402_0_1"
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 3.048 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_100n_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "antmicroResistors0402:R_10k_0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 20.32 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R_10k_0402"
-				(at 20.32 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-				(at 20.32 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-				(at 20.32 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 20.32 -30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "MPN" "CR0402-FX-1002GLF"
-				(at 20.32 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Bourns"
-				(at 20.32 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Val" "10k"
-				(at 20.32 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 20.32 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE, RoHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_10k_0402_0_1"
-				(rectangle
-					(start 0.635 0.889)
-					(end 4.445 -0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_10k_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 				)
 			)
 			(embedded_fonts no)
@@ -3384,7 +3008,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:GND")
+		(lib_id "antmicropower:GND")
 		(at 219.71 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -3395,7 +3019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c7d97b8-e0c6-418e-867e-6ff94e403fcc")
-		(property "Reference" "#PWR05005"
+		(property "Reference" "#PWR5005"
 			(at 228.6 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3489,7 +3113,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
-					(reference "#PWR05005")
+					(reference "#PWR5005")
 					(unit 1)
 				)
 			)
@@ -3506,7 +3130,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "289623c1-1f94-4ee7-8a9a-c28061b2ad1d")
-		(property "Reference" "#PWR05006"
+		(property "Reference" "#PWR5006"
 			(at 238.76 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3520,7 +3144,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 223.52 49.53 0)
+			(at 220.218 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3528,6 +3152,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -3600,7 +3225,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
-					(reference "#PWR05006")
+					(reference "#PWR5006")
 					(unit 1)
 				)
 			)
@@ -3618,7 +3243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29206ae7-e78a-4e1e-a53b-6b14dfb53a63")
-		(property "Reference" "#PWR05004"
+		(property "Reference" "#PWR5004"
 			(at 163.83 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3632,7 +3257,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 67.31 0)
+			(at 163.83 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3640,6 +3265,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -3712,7 +3338,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
-					(reference "#PWR05004")
+					(reference "#PWR5004")
 					(unit 1)
 				)
 			)
@@ -3894,7 +3520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ba9d365-93b8-4112-a943-c1b0d958d93b")
-		(property "Reference" "#PWR05003"
+		(property "Reference" "#PWR5003"
 			(at 187.96 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3908,7 +3534,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 172.72 49.53 0)
+			(at 169.672 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3916,6 +3542,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -3988,14 +3615,14 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
-					(reference "#PWR05003")
+					(reference "#PWR5003")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 151.13 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -4006,7 +3633,7 @@
 		(dnp no)
 		(uuid "46c8b646-6d6b-4b37-8b37-11375233077d")
 		(property "Reference" "R5007"
-			(at 159.766 69.85 0)
+			(at 144.526 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4014,6 +3641,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "R_0R_0402"
@@ -4120,7 +3748,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 149.606 69.85 0)
+			(at 156.972 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4128,6 +3756,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" ""
@@ -4171,7 +3800,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:MT25QU01GBBB8_SOIC")
+		(lib_id "antmicroMemory:MT25QU01GBBB8_SOIC")
 		(at 195.58 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -4352,7 +3981,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:GND")
+		(lib_id "antmicropower:GND")
 		(at 163.83 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -4362,7 +3991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58fff8fd-2ddd-4a81-a457-f0b54b3f70b6")
-		(property "Reference" "#PWR05009"
+		(property "Reference" "#PWR5009"
 			(at 172.72 127 0)
 			(hide yes)
 			(show_name no)
@@ -4376,7 +4005,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 128.524 0)
+			(at 172.72 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4384,6 +4013,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -4456,7 +4086,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
-					(reference "#PWR05009")
+					(reference "#PWR5009")
 					(unit 1)
 				)
 			)
@@ -4475,7 +4105,7 @@
 		(dnp no)
 		(uuid "636d21e0-586f-429e-9cd0-4429fa5f030a")
 		(property "Reference" "C5001"
-			(at 173.228 57.912 90)
+			(at 163.576 56.896 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4483,7 +4113,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "C_100n_0402"
@@ -4590,7 +4220,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 173.228 61.722 90)
+			(at 163.576 59.436 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4598,7 +4228,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "Voltage" "50V"
@@ -4641,7 +4271,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 151.13 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -4652,7 +4282,7 @@
 		(dnp no)
 		(uuid "7642aba8-e7eb-483b-8dc5-ef8734cd63b9")
 		(property "Reference" "R5012"
-			(at 159.766 80.01 0)
+			(at 144.526 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4660,6 +4290,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "R_0R_0402"
@@ -4766,7 +4397,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 149.606 80.01 0)
+			(at 156.972 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4774,6 +4405,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" ""
@@ -4817,7 +4449,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 151.13 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -4828,7 +4460,7 @@
 		(dnp no)
 		(uuid "89b74b20-c490-40d9-9206-1658b9f21577")
 		(property "Reference" "R5011"
-			(at 159.766 77.47 0)
+			(at 144.526 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4836,6 +4468,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "R_0R_0402"
@@ -4942,7 +4575,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 149.606 77.47 0)
+			(at 156.972 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4950,6 +4583,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" ""
@@ -4993,7 +4627,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors0402:C_100n_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 223.52 71.12 90)
 		(unit 1)
 		(body_style 1)
@@ -5337,7 +4971,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm")
+		(lib_id "antmicroTestPoints:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm")
 		(at 130.81 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -5462,39 +5096,30 @@
 		)
 		(pin "2"
 			(uuid "2c651faa-5a07-4acf-ae14-782f5e272fb8")
-			(alternate "SPI_CS")
 		)
 		(pin "6"
 			(uuid "6c1e4015-3f67-4818-8c7d-4c733169dad5")
-			(alternate "SPI_MISO")
 		)
 		(pin "8"
 			(uuid "dfe37a25-241c-488a-88ca-a9f267d1b9b1")
-			(alternate "SPI_MOSI")
 		)
 		(pin "3"
 			(uuid "537ed359-e10e-41fb-b045-7d92070a5a41")
-			(alternate "GND")
 		)
 		(pin "7"
 			(uuid "52406e1b-3f74-43c9-9bd1-2796ed3e3002")
-			(alternate "NC")
 		)
 		(pin "4"
 			(uuid "731e59fe-e84c-453a-b6a0-9fe19e2aa663")
-			(alternate "SPI_SCK")
 		)
 		(pin "10"
 			(uuid "3c1cff88-3d46-421d-bc02-81b64e7c2b98")
-			(alternate "SPI_NC")
 		)
 		(pin "5"
 			(uuid "11dd0d7a-32ad-466b-8e81-3b0a512e413f")
-			(alternate "GND")
 		)
 		(pin "9"
 			(uuid "a4565208-6207-4dd5-8f8e-66fa6a3c655b")
-			(alternate "GND")
 		)
 		(pin "1"
 			(uuid "3bf9cf43-1365-4d96-ab9d-3a448aa213a0")
@@ -5509,7 +5134,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 151.13 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -5520,7 +5145,7 @@
 		(dnp no)
 		(uuid "a2fe54de-6088-4c7d-b18f-f9afc3bdf816")
 		(property "Reference" "R5013"
-			(at 159.766 82.55 0)
+			(at 144.526 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5528,6 +5153,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "R_0R_0402"
@@ -5634,7 +5260,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 149.606 82.55 0)
+			(at 156.972 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5642,6 +5268,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" ""
@@ -5685,7 +5312,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 151.13 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -5696,7 +5323,7 @@
 		(dnp no)
 		(uuid "a9c1a78a-d8e5-4531-9963-a532155b7a22")
 		(property "Reference" "R5009"
-			(at 159.766 72.39 0)
+			(at 144.526 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5704,6 +5331,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "R_0R_0402"
@@ -5810,7 +5438,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 149.606 72.39 0)
+			(at 156.972 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5818,6 +5446,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" ""
@@ -5871,7 +5500,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b266cef3-f639-410d-b5d8-146f57be27dc")
-		(property "Reference" "#PWR05002"
+		(property "Reference" "#PWR5002"
 			(at 143.51 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5885,7 +5514,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 128.27 105.41 0)
+			(at 125.222 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5893,6 +5522,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -5965,14 +5595,14 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
-					(reference "#PWR05002")
+					(reference "#PWR5002")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:GND")
+		(lib_id "antmicropower:GND")
 		(at 223.52 72.39 0)
 		(unit 1)
 		(body_style 1)
@@ -5983,7 +5613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba824b0d-658e-4f97-ba9c-3aa4e9099e68")
-		(property "Reference" "#PWR05007"
+		(property "Reference" "#PWR5007"
 			(at 232.41 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6077,14 +5707,14 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
-					(reference "#PWR05007")
+					(reference "#PWR5007")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:GND")
+		(lib_id "antmicropower:GND")
 		(at 129.54 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -6094,7 +5724,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c696a26e-305f-4c75-83c9-6b6aa34fa405")
-		(property "Reference" "#PWR05008"
+		(property "Reference" "#PWR5008"
 			(at 138.43 127 0)
 			(hide yes)
 			(show_name no)
@@ -6108,7 +5738,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 128.524 0)
+			(at 138.43 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6116,6 +5746,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -6188,7 +5819,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
-					(reference "#PWR05008")
+					(reference "#PWR5008")
 					(unit 1)
 				)
 			)
@@ -6205,7 +5836,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7b6c876-636f-4271-befe-e11edafa318c")
-		(property "Reference" "#PWR05001"
+		(property "Reference" "#PWR5001"
 			(at 104.14 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6219,7 +5850,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 88.9 49.53 0)
+			(at 85.852 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6227,6 +5858,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -6299,7 +5931,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
-					(reference "#PWR05001")
+					(reference "#PWR5001")
 					(unit 1)
 				)
 			)
@@ -6472,7 +6104,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 151.13 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -6483,7 +6115,7 @@
 		(dnp no)
 		(uuid "cbcad251-a969-4267-8dd6-a26d82909354")
 		(property "Reference" "R5010"
-			(at 159.766 74.93 0)
+			(at 144.526 75.946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6491,6 +6123,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "R_0R_0402"
@@ -6597,7 +6230,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 149.606 74.93 0)
+			(at 156.972 75.946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6605,6 +6238,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" ""

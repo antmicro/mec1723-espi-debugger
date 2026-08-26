@@ -11,7 +11,7 @@
 		(company "Antmicro")
 	)
 	(lib_symbols
-		(symbol "Antmicro Symbols:PinHeader_2x6_P2.54mm_Drill1.1mm_Horizontal_TSW-106-08-G-D-RA"
+		(symbol "antmicroGenericPinHeaders:PinHeader_2x6_P2.54mm_Drill1.1mm_Horizontal_TSW-106-08-G-D-RA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -506,7 +506,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Antmicro Symbols:R_0R_0402"
+		(symbol "antmicroResistors0402:R_0R_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1933,7 +1933,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:PinHeader_2x6_P2.54mm_Drill1.1mm_Horizontal_TSW-106-08-G-D-RA")
+		(lib_id "antmicroGenericPinHeaders:PinHeader_2x6_P2.54mm_Drill1.1mm_Horizontal_TSW-106-08-G-D-RA")
 		(at 144.78 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -1944,7 +1944,7 @@
 		(dnp no)
 		(uuid "0f0227c0-1f68-4779-957f-202c75eb0a9c")
 		(property "Reference" "J2001"
-			(at 149.606 78.74 0)
+			(at 146.558 79.502 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1952,6 +1952,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "PinHeader_2x6_P2.54mm_Drill1.1mm_Horizontal"
@@ -2007,7 +2008,7 @@
 			)
 		)
 		(property "MPN" "TSW-106-08-G-D-RA"
-			(at 149.606 81.28 0)
+			(at 138.176 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2015,6 +2016,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Manufacturer" "Samtec"
@@ -2237,7 +2239,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 106.68 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -2248,7 +2250,7 @@
 		(dnp no)
 		(uuid "24714dc7-7e45-4f26-bf9f-828d422e60c0")
 		(property "Reference" "R2007"
-			(at 115.316 95.25 0)
+			(at 111.76 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2256,6 +2258,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "R_0R_0402"
@@ -2362,7 +2365,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 105.156 95.25 0)
+			(at 104.14 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2370,6 +2373,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" ""
@@ -2413,7 +2417,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 186.69 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -2424,7 +2428,7 @@
 		(dnp no)
 		(uuid "383747bc-2dc8-41cf-901d-d0094ec6769c")
 		(property "Reference" "R2003"
-			(at 195.326 95.25 0)
+			(at 191.516 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2432,6 +2436,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "R_0R_0402"
@@ -2538,7 +2543,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 185.166 95.25 0)
+			(at 184.15 96.012 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2546,6 +2551,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" ""
@@ -2724,7 +2730,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 186.69 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -2735,7 +2741,7 @@
 		(dnp no)
 		(uuid "5f3ececb-115f-4d49-9c1a-f370d3d3c5f0")
 		(property "Reference" "R2004"
-			(at 195.326 97.79 0)
+			(at 191.516 98.552 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2743,6 +2749,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "R_0R_0402"
@@ -2849,7 +2856,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 185.166 97.79 0)
+			(at 184.15 98.552 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2857,6 +2864,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" ""
@@ -3045,7 +3053,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "790216b8-7af8-4f98-8036-7b342df0af0a")
-		(property "Reference" "#PWR02001"
+		(property "Reference" "#PWR2001"
 			(at 191.77 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3059,7 +3067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.944 85.344 0)
+			(at 181.102 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3067,7 +3075,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify top)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -3140,14 +3148,14 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/dad11b40-64da-40df-af81-feff62248020"
-					(reference "#PWR02001")
+					(reference "#PWR2001")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 186.69 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -3158,7 +3166,7 @@
 		(dnp no)
 		(uuid "7dfb673e-0b64-4067-900d-59e988f6cda4")
 		(property "Reference" "R2001"
-			(at 195.326 90.17 0)
+			(at 191.516 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3166,6 +3174,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "R_0R_0402"
@@ -3272,7 +3281,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 185.166 90.17 0)
+			(at 184.15 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3280,6 +3289,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" ""
@@ -4133,7 +4143,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 106.68 93.98 0)
 		(unit 1)
 		(body_style 1)
@@ -4144,7 +4154,7 @@
 		(dnp no)
 		(uuid "bbe93633-7a1a-4ab7-8ad0-ad49aa3409bd")
 		(property "Reference" "R2006"
-			(at 115.316 92.71 0)
+			(at 111.506 93.472 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4152,6 +4162,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "R_0R_0402"
@@ -4258,7 +4269,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 105.156 92.71 0)
+			(at 104.14 93.472 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4266,6 +4277,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" ""
@@ -4444,7 +4456,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 106.68 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -4455,7 +4467,7 @@
 		(dnp no)
 		(uuid "c83b62ed-0532-4542-81e8-c06c3a84267f")
 		(property "Reference" "R2005"
-			(at 115.316 90.17 0)
+			(at 111.506 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4463,6 +4475,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "R_0R_0402"
@@ -4569,7 +4582,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 105.156 90.17 0)
+			(at 104.394 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4577,6 +4590,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" ""
@@ -4620,7 +4634,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 106.68 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -4631,7 +4645,7 @@
 		(dnp no)
 		(uuid "c96c9275-4981-4e33-a89a-cf492a2f3d1c")
 		(property "Reference" "R2008"
-			(at 115.316 97.79 0)
+			(at 111.76 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4639,6 +4653,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "R_0R_0402"
@@ -4745,7 +4760,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 105.156 97.79 0)
+			(at 104.14 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4753,6 +4768,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" ""
@@ -4796,7 +4812,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Antmicro Symbols:R_0R_0402")
+		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 186.69 93.98 0)
 		(unit 1)
 		(body_style 1)
@@ -4807,7 +4823,7 @@
 		(dnp no)
 		(uuid "ebc19856-4f93-4e05-a1a9-39d7cc3827cb")
 		(property "Reference" "R2002"
-			(at 195.326 92.71 0)
+			(at 191.516 93.472 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4815,6 +4831,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "R_0R_0402"
@@ -4921,7 +4938,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 185.166 92.71 0)
+			(at 184.15 93.472 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4929,6 +4946,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" ""
