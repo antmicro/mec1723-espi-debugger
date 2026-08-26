@@ -974,7 +974,7 @@
 	)
 	(symbol
 		(lib_id "Antmicro Symbols:Fiducial_1mm_Mask2mm")
-		(at 255.27 149.86 0)
+		(at 255.27 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -985,7 +985,7 @@
 		(fields_autoplaced yes)
 		(uuid "01b7d7f6-3bdd-454a-8b3d-c2d54adbbc62")
 		(property "Reference" "FD1005"
-			(at 259.08 148.59 0)
+			(at 259.08 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -997,7 +997,7 @@
 			)
 		)
 		(property "Value" "Fiducial_1mm_Mask2mm"
-			(at 259.08 151.13 0)
+			(at 259.08 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1009,7 +1009,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm"
-			(at 264.16 154.94 0)
+			(at 264.16 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1022,7 +1022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.49 160.35 0)
+			(at 264.49 167.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1035,7 +1035,7 @@
 			)
 		)
 		(property "Description" "Fiducial mask"
-			(at 264.49 162.89 0)
+			(at 264.49 170.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1047,7 +1047,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 264.16 157.48 0)
+			(at 264.16 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1060,7 +1060,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 264.16 160.02 0)
+			(at 264.16 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1870,116 +1870,7 @@
 	)
 	(symbol
 		(lib_id "Antmicro Symbols:Fiducial_1mm_Mask2mm")
-		(at 255.27 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c393562-b325-43d0-81c9-14fab86c092c")
-		(property "Reference" "FD1006"
-			(at 259.08 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial_1mm_Mask2mm"
-			(at 259.08 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm"
-			(at 264.16 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.49 167.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Fiducial mask"
-			(at 264.49 170.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 264.16 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 264.16 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(instances
-			(project "dc-scm-server-integration-espi-adapter"
-				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9"
-					(reference "FD1006")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Antmicro Symbols:Fiducial_1mm_Mask2mm")
-		(at 255.27 127 0)
+		(at 255.27 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1990,7 +1881,7 @@
 		(fields_autoplaced yes)
 		(uuid "b071638c-8165-4114-9b97-873fa7b974f0")
 		(property "Reference" "FD1002"
-			(at 259.08 125.73 0)
+			(at 259.08 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2002,7 +1893,7 @@
 			)
 		)
 		(property "Value" "Fiducial_1mm_Mask2mm"
-			(at 259.08 128.27 0)
+			(at 259.08 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2014,7 +1905,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm"
-			(at 264.16 132.08 0)
+			(at 264.16 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2027,7 +1918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.49 137.49 0)
+			(at 264.49 145.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2040,7 +1931,7 @@
 			)
 		)
 		(property "Description" "Fiducial mask"
-			(at 264.49 140.03 0)
+			(at 264.49 147.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2052,7 +1943,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 264.16 134.62 0)
+			(at 264.16 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2065,7 +1956,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 264.16 137.16 0)
+			(at 264.16 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2200,7 +2091,7 @@
 	)
 	(symbol
 		(lib_id "Antmicro Symbols:Fiducial_1mm_Mask2mm")
-		(at 255.27 119.38 0)
+		(at 255.27 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2211,7 +2102,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcdd67d2-ac7c-4dd8-9802-db9cd27c8ba3")
 		(property "Reference" "FD1001"
-			(at 259.08 118.11 0)
+			(at 259.08 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2223,7 +2114,7 @@
 			)
 		)
 		(property "Value" "Fiducial_1mm_Mask2mm"
-			(at 259.08 120.65 0)
+			(at 259.08 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2235,7 +2126,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm"
-			(at 264.16 124.46 0)
+			(at 264.16 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2248,7 +2139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.49 129.87 0)
+			(at 264.49 137.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2261,7 +2152,7 @@
 			)
 		)
 		(property "Description" "Fiducial mask"
-			(at 264.49 132.41 0)
+			(at 264.49 140.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2273,7 +2164,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 264.16 127 0)
+			(at 264.16 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2286,7 +2177,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 264.16 129.54 0)
+			(at 264.16 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2418,7 +2309,7 @@
 	)
 	(symbol
 		(lib_id "Antmicro Symbols:Fiducial_1mm_Mask2mm")
-		(at 255.27 134.62 0)
+		(at 255.27 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2429,7 +2320,7 @@
 		(fields_autoplaced yes)
 		(uuid "f50ecaf3-3e07-4b7b-8016-37e25914177a")
 		(property "Reference" "FD1003"
-			(at 259.08 133.35 0)
+			(at 259.08 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2441,7 +2332,7 @@
 			)
 		)
 		(property "Value" "Fiducial_1mm_Mask2mm"
-			(at 259.08 135.89 0)
+			(at 259.08 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2453,7 +2344,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm"
-			(at 264.16 139.7 0)
+			(at 264.16 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2466,7 +2357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.49 145.11 0)
+			(at 264.49 152.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2479,7 +2370,7 @@
 			)
 		)
 		(property "Description" "Fiducial mask"
-			(at 264.49 147.65 0)
+			(at 264.49 155.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2491,7 +2382,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 264.16 142.24 0)
+			(at 264.16 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2504,7 +2395,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 264.16 144.78 0)
+			(at 264.16 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2665,7 +2556,7 @@
 	)
 	(symbol
 		(lib_id "Antmicro Symbols:Fiducial_1mm_Mask2mm")
-		(at 255.27 142.24 0)
+		(at 255.27 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2676,7 +2567,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffc08453-01cc-45e1-9eac-404afb87631e")
 		(property "Reference" "FD1004"
-			(at 259.08 140.97 0)
+			(at 259.08 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2688,7 +2579,7 @@
 			)
 		)
 		(property "Value" "Fiducial_1mm_Mask2mm"
-			(at 259.08 143.51 0)
+			(at 259.08 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2700,7 +2591,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm"
-			(at 264.16 147.32 0)
+			(at 264.16 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2713,7 +2604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.49 152.73 0)
+			(at 264.49 160.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2726,7 +2617,7 @@
 			)
 		)
 		(property "Description" "Fiducial mask"
-			(at 264.49 155.27 0)
+			(at 264.49 162.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2738,7 +2629,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 264.16 149.86 0)
+			(at 264.16 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2751,7 +2642,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 264.16 152.4 0)
+			(at 264.16 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

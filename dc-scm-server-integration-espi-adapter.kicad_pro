@@ -562,11 +562,17 @@
       },
       {
         "bus_width": 12,
-        "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "clearance": 0.182,
+        "diff_pair_gap": 0.196,
+        "diff_pair_width": 0.182,
+        "line_style": 0,
+        "name": "90Ohm-diff",
+        "pcb_color": "rgb(42, 10, 255)",
         "priority": 0,
         "schematic_color": "rgb(69, 52, 255)",
+        "track_width": 0.55,
         "tuning_profile": "",
+        "via_diameter": 0.2,
         "wire_width": 6
       }
     ],
@@ -647,7 +653,7 @@
     },
     "netclass_patterns": [
       {
-        "netclass": "USB",
+        "netclass": "90Ohm-diff",
         "pattern": "*USB*"
       },
       {

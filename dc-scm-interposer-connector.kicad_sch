@@ -1372,16 +1372,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 111.76) (xy 152.4 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a70bd0dc-4f4b-48d1-b482-d8b2480377fe")
-	)
-	(wire
-		(pts
 			(xy 149.86 135.89) (xy 152.4 135.89)
 		)
 		(stroke
@@ -1830,17 +1820,6 @@
 		)
 		(uuid "ec0c260f-7b7c-467a-9cb2-7255927855db")
 	)
-	(hierarchical_label "DC_SCM_P3V0"
-		(shape output)
-		(at 149.86 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "048c7644-e90d-40a3-8e3d-61ee42f253e0")
-	)
 	(hierarchical_label "DC_SCM_STBY_EN"
 		(shape output)
 		(at 149.86 115.57 180)
@@ -2252,141 +2231,6 @@
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/dad11b40-64da-40df-af81-feff62248020"
 					(reference "TP2005")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTestPoints:TP_1mm_SMD")
-		(at 152.4 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fc87d7e-2905-4fed-a54c-15ea4ddac3b9")
-		(property "Reference" "TP2001"
-			(at 157.48 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_1mm_SMD"
-			(at 167.64 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_1mm"
-			(at 167.64 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Test point 1mm SMD"
-			(at 167.64 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" ""
-			(at 152.4 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 152.4 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 167.64 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 167.64 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "cbfb832e-958e-4030-9497-9c5843fbb3c9")
-		)
-		(instances
-			(project "dc-scm-server-integration-espi-adapter"
-				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/dad11b40-64da-40df-af81-feff62248020"
-					(reference "TP2001")
 					(unit 1)
 				)
 			)
