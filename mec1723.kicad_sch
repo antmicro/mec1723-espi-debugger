@@ -18190,7 +18190,7 @@
 		(dnp yes)
 		(uuid "2f8539a7-6e7a-466b-889a-8449b15d5d16")
 		(property "Reference" "R3037"
-			(at 83.312 51.562 0)
+			(at 76.2 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18305,7 +18305,7 @@
 			)
 		)
 		(property "Val" "1k"
-			(at 83.312 54.102 0)
+			(at 86.106 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31179,7 +31179,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 52.07 0)
+			(at 78.232 51.562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
