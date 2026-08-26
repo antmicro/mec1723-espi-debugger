@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "eSPI Adapter")
-		(date "2026-08-21")
+		(date "2026-08-26")
 		(rev "1.0.0")
 		(company "Antmicro")
 	)
@@ -3251,4 +3251,25 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "project_table.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBrDW0WANbgZSAAtxsWHGQdFQ5GzntWK9QpmmWZgOXb7+ug5yaqqhbAiFoAVgBgAFU7yLsP
+				egbhf/yF8Hc4Nk/a13KyB9L8xkUCRuXszoeW5NeKhKtikraf7Pgl/0EDQqL3ccpJK01lQ9eIoaoz
+				fi/7dQ5Bo5Radda+2I7ZR4PubsD4IWlCD7SfQd/3TWr9xRvaWO0Rhypa9Zf8v8emhdWeGIBgKmXw
+				2trvech7Zr8Zgy/27Fl9QCx+7eLbb+98h1eEs9dV/3UQCIN1Tlmb0g6vV027JK29aZvcKu3P3o9V
+				hg7DUUZOya5LVlp16IHWQbNMUi0i6SoUDqNRIBKdAyWo1pQ0uyTW1Npk1fDFkP7ROqNqB72NpWXS
+				6sygSSvFWRAKDXepVDqUoA/+niLnbMr+18E2beyPIg9WmyJMFesZAMJl2CR2GeiUW3ZRidVa55RZ
+				m64XAuGERanEMhHEBCJJoARXrfJqWBATC8c1KtqkHAQR4R7dwi5C+EMRf03Y5EY706rcKn1YOouL
+				by1VaPvdO5VrGuR1BQqpQNhtVpUBfKARrUKKqZkRLWiSYQxQhIiZQZsDSBwY2OZTTnMjBu5vC512
+				vvvDVDtRPoz5X0weovjyAPbS2ZNlE4bfrFc+HCitodaOJlsbZ7cpoIZpGipGACG1pXVwwiPUJCB5
+				B4KPwX/6qzwVDafRsAFCNGb6FBshrlgxqp+9ZCgX1UEIwCC4IeR0pRZt37OiUIRnWIK/j9DOwCC5
+				lSvEr0TMOaaNvm8EZSBhGc+LMU6Zd59V4rCj0m2ag5QIB1Lcx0ikI0PzEQeKC/+VhcalEVA8SCeM
+				JZ4ssnJo/Gxtjw3VMnWyEUNwpXfGDDcv9+Wp5fcoFGMEvrAT25RMSDWHIVaXDtpQ1wPInDpdjYPT
+				fzAeaz4gRt3bJ7J2EbL9tK8WDgOwi95LLocmCk8mlyAiIAT/ELkF0ugQqg==|
+			)
+			(checksum "B3CB3113FBE3DBAF1C1196898B7ACAA6")
+		)
+	)
 )

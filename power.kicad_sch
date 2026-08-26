@@ -7087,7 +7087,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2285b6f9-7216-4035-bb9f-d824b894c520")
 		(property "Reference" "R4002"
@@ -9422,7 +9422,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6d3a5b88-e2cc-4079-8054-ac44e52b58c2")
 		(property "Reference" "R4006"
