@@ -3411,16 +3411,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Powered from 3.3V\nPIO registers set on drive strength - 8mA"
-		(exclude_from_sim no)
-		(at 143.764 106.426 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "58b6da04-3678-4305-aebc-abd2b54698c4")
-	)
 	(junction
 		(at 54.61 106.68)
 		(diameter 0)
