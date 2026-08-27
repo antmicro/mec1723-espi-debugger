@@ -212,7 +212,7 @@
       "track_widths": [
         0.0,
         0.1,
-        0.15,
+        0.182,
         0.2,
         0.3,
         0.5,
@@ -549,6 +549,7 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.15,
         "line_style": 0,
         "name": "50Ohm-se",
         "pcb_color": "rgb(30, 144, 154)",

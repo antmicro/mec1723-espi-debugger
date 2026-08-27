@@ -5004,16 +5004,6 @@
 		)
 		(uuid "004f46c5-1396-444d-a746-5f9214b8ce08")
 	)
-	(label "7SEG_L_A"
-		(at 151.13 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01acb08e-7724-4c6c-b994-29863f51c274")
-	)
 	(label "7SEG_L_DP"
 		(at 200.66 100.33 0)
 		(effects
@@ -5114,26 +5104,6 @@
 		)
 		(uuid "3b4350c7-05ec-4263-8ca7-fd33cc818ae5")
 	)
-	(label "7SEG_L_G"
-		(at 151.13 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "42145984-c498-4456-8f13-d4d54d93c89b")
-	)
-	(label "7SEG_L_C"
-		(at 151.13 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44da9027-634f-4d26-965b-107d0ffdf4ad")
-	)
 	(label "7SEG_L_C"
 		(at 200.66 87.63 0)
 		(effects
@@ -5174,15 +5144,25 @@
 		)
 		(uuid "646af9e8-c707-49bc-b25d-347afc19d294")
 	)
-	(label "7SEG_L_F"
-		(at 151.13 140.97 0)
+	(label "7SEG_L_E_R"
+		(at 151.13 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6dc4f4cb-5947-4c09-a00f-627fd3247ec0")
+		(uuid "66185950-3d36-444d-8ff6-62c817f321df")
+	)
+	(label "7SEG_L_D_R"
+		(at 151.13 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e4a70b2-c2a0-4686-a24f-0c5e99ddbabd")
 	)
 	(label "7SEG_H.E"
 		(at 45.72 92.71 0)
@@ -5213,16 +5193,6 @@
 			(justify left bottom)
 		)
 		(uuid "7ab6aa4e-1169-40b7-bb10-1c55b2df7c49")
-	)
-	(label "7SEG_L_D"
-		(at 151.13 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "804936a7-4689-4c9e-8b65-51200a741d90")
 	)
 	(label "7SEG_H.G"
 		(at 45.72 97.79 0)
@@ -5294,16 +5264,6 @@
 		)
 		(uuid "97c80206-2553-4e4a-a8eb-a5b585aee35b")
 	)
-	(label "7SEG_L_DP"
-		(at 151.13 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c141b78-1c98-4aa1-a658-6697c77769cd")
-	)
 	(label "7SEG_H_F_R"
 		(at 111.76 95.25 0)
 		(effects
@@ -5313,6 +5273,26 @@
 			(justify left bottom)
 		)
 		(uuid "9de2c42e-3525-4aa2-92c5-3fabed33330c")
+	)
+	(label "7SEG_L_F_R"
+		(at 151.13 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2d95994-d964-4674-9495-064ac9bb3f9f")
+	)
+	(label "7SEG_L_G_R"
+		(at 151.13 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a425f7da-e69d-4024-9745-f1e33a59a067")
 	)
 	(label "7SEG_H_G"
 		(at 77.47 97.79 0)
@@ -5374,16 +5354,6 @@
 		)
 		(uuid "b806092d-437f-4ebf-b41b-d9c609463abe")
 	)
-	(label "7SEG_L_E"
-		(at 151.13 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b80b378f-318d-44e2-ab53-39e186256f9e")
-	)
 	(label "7SEG_L.C"
 		(at 237.49 87.63 0)
 		(effects
@@ -5393,16 +5363,6 @@
 			(justify left bottom)
 		)
 		(uuid "b9e5edbd-5af3-4a5a-8900-4006ef544593")
-	)
-	(label "7SEG_L_B"
-		(at 151.13 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc5d6d8d-a0d7-4a73-9ba1-9980a09a4a36")
 	)
 	(label "7SEG_L_D"
 		(at 200.66 90.17 0)
@@ -5444,6 +5404,16 @@
 		)
 		(uuid "c74bc1ac-a75d-4ae4-9d5b-1af2ecb56139")
 	)
+	(label "7SEG_L_DP_R"
+		(at 151.13 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c86a2d67-e479-4ede-a0ef-0768becda9e7")
+	)
 	(label "7SEG_L.D"
 		(at 237.49 90.17 0)
 		(effects
@@ -5473,6 +5443,36 @@
 			(justify left bottom)
 		)
 		(uuid "db65ca62-f0d0-4ae2-b585-450b08314ca7")
+	)
+	(label "7SEG_L_C_R"
+		(at 151.13 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcc61e08-5aa4-4f25-885d-6d84b7282520")
+	)
+	(label "7SEG_L_B_R"
+		(at 151.13 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df5395d9-59ff-452b-8ead-a42d83d661c5")
+	)
+	(label "7SEG_L_A_R"
+		(at 151.13 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e41bd995-df2d-49cb-945b-54d4905d1a0b")
 	)
 	(label "7SEG_H_E_R"
 		(at 111.76 92.71 0)

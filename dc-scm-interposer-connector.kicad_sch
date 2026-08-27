@@ -1048,6 +1048,16 @@
 		)
 		(uuid "40e8250a-6e1d-4db7-8a11-1b568ae7ac85")
 	)
+	(text "TVS diodes?"
+		(exclude_from_sim no)
+		(at 97.282 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aea1d6b3-e325-4d1e-9a84-b086279fba38")
+	)
 	(bus_entry
 		(at 74.93 97.79)
 		(size 1.27 1.27)
@@ -1590,6 +1600,16 @@
 		)
 		(uuid "006955c8-89a4-462c-b6f4-3563a0902c15")
 	)
+	(label "EC_ESPI.IO1_R"
+		(at 161.29 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02145981-d2e7-46b2-8011-7299bde52450")
+	)
 	(label "EC_ESPI.~{RESET}_R"
 		(at 123.19 96.52 0)
 		(effects
@@ -1609,16 +1629,6 @@
 			(justify right bottom)
 		)
 		(uuid "0c54ac77-6919-4d62-93f6-7973e4db4759")
-	)
-	(label "EC_ESPI.IO3"
-		(at 201.93 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2772d5cc-0f7a-45b9-bde9-ac1965b0a5c3")
 	)
 	(label "EC_ESPI.~{RESET}"
 		(at 92.71 96.52 180)
@@ -1660,25 +1670,15 @@
 		)
 		(uuid "4e25f5a5-f016-44b4-9422-92019fea2963")
 	)
-	(label "EC_ESPI.IO1_R"
-		(at 161.29 91.44 0)
+	(label "EC_ESPI.IO1"
+		(at 201.93 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "5f3ae8f7-cdcd-4d26-a55f-332397fc4a8d")
-	)
-	(label "EC_ESPI.IO3_R"
-		(at 161.29 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "60a47295-f59b-44d3-9100-4c55b9fe2f47")
+		(uuid "5323e941-d5d7-4f2a-820f-6737898bbb91")
 	)
 	(label "EC_ESPI.IO2"
 		(at 149.86 143.51 180)
@@ -1790,16 +1790,6 @@
 		)
 		(uuid "d034b816-a845-4bc5-8264-e02b79d355d6")
 	)
-	(label "EC_ESPI.IO1"
-		(at 201.93 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3364738-5843-4d1c-960b-6422046a14f6")
-	)
 	(label "EC_ESPI.IO2_R"
 		(at 161.29 93.98 0)
 		(effects
@@ -1810,6 +1800,16 @@
 		)
 		(uuid "d989e16f-4401-44cf-8ab2-d496e657ffce")
 	)
+	(label "EC_ESPI.IO3_R"
+		(at 161.29 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e57d0fde-ba71-4775-b641-f506cd74c50d")
+	)
 	(label "EC_ESPI.SCK"
 		(at 92.71 91.44 180)
 		(effects
@@ -1819,6 +1819,16 @@
 			(justify right bottom)
 		)
 		(uuid "ec0c260f-7b7c-467a-9cb2-7255927855db")
+	)
+	(label "EC_ESPI.IO3"
+		(at 201.93 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eff43683-cfe6-4a07-be0a-c9f2ffa44a36")
 	)
 	(hierarchical_label "DC_SCM_STBY_EN"
 		(shape output)
