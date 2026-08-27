@@ -13268,7 +13268,7 @@
 		)
 		(uuid "26652441-582d-4af4-bdd8-7814a8afac5e")
 	)
-	(label "EC_JTAG_TDO"
+	(label "EC_JTAG.TDO"
 		(at 139.7 111.76 0)
 		(effects
 			(font
@@ -13458,7 +13458,7 @@
 		)
 		(uuid "352304b3-1647-435a-a4c7-b1229e555160")
 	)
-	(label "EC_JTAG_TMS"
+	(label "EC_JTAG.TMS"
 		(at 139.7 116.84 0)
 		(effects
 			(font
@@ -13648,7 +13648,7 @@
 		)
 		(uuid "4b9a96b1-a32e-4056-bf90-82e73501dd68")
 	)
-	(label "EC_JTAG_nRST"
+	(label "EC_JTAG.TRST"
 		(at 139.7 106.68 0)
 		(effects
 			(font
@@ -13758,7 +13758,7 @@
 		)
 		(uuid "56641355-0d03-4ee9-a36a-2c22887d3136")
 	)
-	(label "EC_JTAG_TCK"
+	(label "EC_JTAG.TCK"
 		(at 139.7 114.3 0)
 		(effects
 			(font
@@ -14928,7 +14928,7 @@
 		)
 		(uuid "e004a879-f6dc-4ca7-bb9c-664f3ba55e47")
 	)
-	(label "EC_JTAG_TDI"
+	(label "EC_JTAG.TDI"
 		(at 139.7 109.22 0)
 		(effects
 			(font
