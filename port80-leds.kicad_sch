@@ -5587,7 +5587,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0298ba86-59cb-491d-bf19-0640077a1150")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0105"
 			(at 59.69 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5682,7 +5682,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "#PWR099")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -6076,7 +6076,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0dd5c2c1-afc7-44ce-acd7-b0e8df1732d5")
-		(property "Reference" "R88"
+		(property "Reference" "R89"
 			(at 102.87 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6224,7 +6224,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "R88")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -6242,7 +6242,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fca1ea1-e13d-4b28-97fc-9d2c7f568bbd")
-		(property "Reference" "R87"
+		(property "Reference" "R88"
 			(at 102.87 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6390,7 +6390,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "R87")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -6407,7 +6407,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1744c47e-8f26-4f99-9433-9edd067b9bfe")
-		(property "Reference" "R96"
+		(property "Reference" "R97"
 			(at 190.246 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6555,7 +6555,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "R96")
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -6573,7 +6573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1da392a3-1b1e-48c7-826f-978c05660772")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0109"
 			(at 137.16 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6667,7 +6667,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "#PWR0103")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -6685,7 +6685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "267ce462-6960-4268-a00d-0cca9d3bbd54")
-		(property "Reference" "R93"
+		(property "Reference" "R94"
 			(at 190.246 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6833,7 +6833,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "R93")
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -6852,7 +6852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2994152a-a090-4c0b-81d9-e62cec299927")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0112"
 			(at 203.2 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6946,7 +6946,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "#PWR0106")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -7159,7 +7159,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33114681-ad81-4c3a-8a84-71cdef3cbc16")
-		(property "Reference" "R84"
+		(property "Reference" "R85"
 			(at 102.87 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7307,7 +7307,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "R84")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -7325,7 +7325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36c8d744-43e3-4155-8514-a2a8a8177402")
-		(property "Reference" "R97"
+		(property "Reference" "R98"
 			(at 190.246 93.472 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7473,7 +7473,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "R97")
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -7490,7 +7490,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41fd8369-60a0-4049-a8d6-dbcc9b5e980c")
-		(property "Reference" "R86"
+		(property "Reference" "R87"
 			(at 102.87 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7638,7 +7638,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "R86")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -7656,7 +7656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c5c9aea-1d15-47fb-ad0b-fe3e5162941e")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0108"
 			(at 86.36 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7750,7 +7750,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "#PWR0102")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -7918,7 +7918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "648dcf31-5735-4fb2-b6cc-45a2e9c90814")
-		(property "Reference" "R89"
+		(property "Reference" "R90"
 			(at 102.87 93.472 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8066,7 +8066,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "R89")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -8084,7 +8084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c5db7ca-e3cb-4a9a-86c7-6f2f8ed958f0")
-		(property "Reference" "R85"
+		(property "Reference" "R86"
 			(at 102.87 83.058 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8232,7 +8232,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "R85")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -8249,7 +8249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d2529dc-8f5d-4d74-8244-3823c5d95777")
-		(property "Reference" "R92"
+		(property "Reference" "R93"
 			(at 190.246 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8397,7 +8397,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "R92")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -8416,7 +8416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77ba4948-236f-4c65-a2ed-0f73224009d1")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0106"
 			(at 45.72 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8510,7 +8510,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "#PWR0100")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -8528,7 +8528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88f9269d-e7ea-4d6b-ab36-538bccf359eb")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0111"
 			(at 181.61 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8622,7 +8622,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "#PWR0105")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -8640,7 +8640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9389116d-ae53-4263-9147-19c37abd45c4")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0107"
 			(at 71.12 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8734,7 +8734,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "#PWR0101")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -8901,7 +8901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "965481d7-0828-49cf-9f4e-74a27eeba182")
-		(property "Reference" "R94"
+		(property "Reference" "R95"
 			(at 190.246 87.376 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9049,7 +9049,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "R94")
+					(reference "R95")
 					(unit 1)
 				)
 			)
@@ -9067,7 +9067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "978053f5-0bed-4df5-9694-763cee904081")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0110"
 			(at 148.59 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9161,7 +9161,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "#PWR0104")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -9329,7 +9329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a63f7b92-f8f9-46b4-8bd1-460b8ca57025")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0113"
 			(at 248.92 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9423,7 +9423,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "#PWR0107")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -9441,7 +9441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a80674b4-375b-4f8f-b97a-9ef359cb6240")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0115"
 			(at 229.87 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9536,7 +9536,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "#PWR0109")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -9703,7 +9703,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba4534bb-7f62-477d-97ae-cd9c50d8ae52")
-		(property "Reference" "R90"
+		(property "Reference" "R91"
 			(at 102.87 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9851,7 +9851,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "R90")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -9869,7 +9869,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c050e0ff-6815-486d-8564-33c4deea96b7")
-		(property "Reference" "R95"
+		(property "Reference" "R96"
 			(at 190.246 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10017,7 +10017,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "R95")
+					(reference "R96")
 					(unit 1)
 				)
 			)
@@ -10034,7 +10034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c33013af-ab03-46e3-8f9a-0ebe84f9387a")
-		(property "Reference" "R98"
+		(property "Reference" "R99"
 			(at 190.246 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10182,7 +10182,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "R98")
+					(reference "R99")
 					(unit 1)
 				)
 			)
@@ -10350,7 +10350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb102b9a-9de7-42e2-a0af-b443e046f218")
-		(property "Reference" "C25"
+		(property "Reference" "C31"
 			(at 43.18 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10510,7 +10510,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "C25")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -10678,7 +10678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db82a2b7-308c-4faa-9a8d-e4baee2600c5")
-		(property "Reference" "R91"
+		(property "Reference" "R92"
 			(at 102.87 98.552 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10826,7 +10826,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "R91")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -10993,7 +10993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df834996-79d2-4d82-9faf-68be4d170d52")
-		(property "Reference" "C26"
+		(property "Reference" "C32"
 			(at 241.3 68.072 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11153,7 +11153,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "C26")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -11171,7 +11171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0fbf5b4-2472-4851-9255-9b4e9bc38cfa")
-		(property "Reference" "R99"
+		(property "Reference" "R100"
 			(at 190.246 98.552 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11319,7 +11319,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "R99")
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -11487,7 +11487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff4ee57f-4575-4c76-840a-63b69df498fe")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0114"
 			(at 243.84 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -11581,7 +11581,7 @@
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/76679e57-0420-4874-b75d-368e938745be"
-					(reference "#PWR0108")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
