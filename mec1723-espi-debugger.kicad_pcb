@@ -509313,6 +509313,19 @@
 			(justify right top)
 		)
 	)
+	(gr_text "PCB SHA: ########"
+		(at 74.205467 144.086213 0)
+		(layer "B.SilkS")
+		(uuid "42ce7dcd-e127-4aca-99a4-f3d6e0c0a2c2")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.13)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(table
 		(column_count 7)
 		(uuid "e333c691-ed77-4b48-96e2-ebe741b89a53")
