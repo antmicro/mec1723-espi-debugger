@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 1.62)
+		(thickness 1.484)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -66,7 +66,7 @@
 			)
 			(layer "F.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.018)
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
@@ -77,7 +77,7 @@
 			)
 			(layer "In1.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.018)
 			)
 			(layer "dielectric 2"
 				(type "core")
@@ -88,14 +88,16 @@
 			)
 			(layer "In2.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.018)
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
+				(color "FR4 natural")
 				(thickness 0.12)
 				(material "PR2116")
 				(epsilon_r 4.39)
 				(loss_tangent 0.02) addsublayer
+				(color "PTFE natural")
 				(thickness 0.12)
 				(material "PR2116")
 				(epsilon_r 4.39)
@@ -103,10 +105,10 @@
 			)
 			(layer "In3.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.018)
 			)
 			(layer "dielectric 4"
-				(type "core")
+				(type "prepreg")
 				(color "#808080FF")
 				(thickness 0.2)
 				(material "FR4")
@@ -115,7 +117,7 @@
 			)
 			(layer "In4.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.018)
 			)
 			(layer "dielectric 5"
 				(type "prepreg")
@@ -130,10 +132,10 @@
 			)
 			(layer "In5.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.018)
 			)
 			(layer "dielectric 6"
-				(type "core")
+				(type "prepreg")
 				(thickness 0.2)
 				(material "FR4")
 				(epsilon_r 4.39)
@@ -141,7 +143,7 @@
 			)
 			(layer "In6.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.018)
 			)
 			(layer "dielectric 7"
 				(type "prepreg")
@@ -152,7 +154,7 @@
 			)
 			(layer "B.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.018)
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
@@ -382622,7 +382624,7 @@
 			(size 0.59 0.64)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MEC1723/GPIO034")
+			(net "/MEC1723/GPIO036")
 			(pintype "passive")
 			(uuid "520b1801-903b-40f3-8671-39489d2dbd60")
 		)
@@ -500607,7 +500609,7 @@
 			(size 0.59 0.64)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MEC1723/GPIO036")
+			(net "/MEC1723/GPIO034")
 			(pintype "passive")
 			(uuid "6089d179-9640-47ae-9532-2a8944b96916")
 		)
@@ -530821,36 +530823,20 @@
 		(uuid "90d82f7d-c33c-4ba2-b7b9-6ee2048d2de1")
 	)
 	(segment
-		(start 78.525467 110.816213)
-		(end 78.53168 110.816213)
-		(width 0.1)
-		(layer "B.Cu")
-		(net "/MEC1723/GPIO034")
-		(uuid "2ae2b90d-412d-4d4d-a132-faa504035f51")
-	)
-	(segment
 		(start 79.095467 113.016213)
-		(end 78.525467 112.446213)
-		(width 0.1)
+		(end 79.075467 112.996213)
+		(width 0.125)
 		(layer "B.Cu")
 		(net "/MEC1723/GPIO034")
-		(uuid "5bd7d8b4-2f03-4118-b86c-d088efad321b")
+		(uuid "63c8bd55-410c-410b-b5dd-45aa2031dfbf")
 	)
 	(segment
-		(start 78.525467 112.446213)
-		(end 78.525467 110.816213)
-		(width 0.1)
+		(start 79.075467 112.996213)
+		(end 79.075467 111.416213)
+		(width 0.125)
 		(layer "B.Cu")
 		(net "/MEC1723/GPIO034")
-		(uuid "61d26d5c-1383-4f73-b5c0-bb2be69e9e17")
-	)
-	(segment
-		(start 78.53168 110.816213)
-		(end 79.075467 110.272426)
-		(width 0.1)
-		(layer "B.Cu")
-		(net "/MEC1723/GPIO034")
-		(uuid "a57e41f5-5a33-436b-a13b-9844a7b83952")
+		(uuid "7c995a27-c6f7-4225-b774-48bd4f2991e8")
 	)
 	(segment
 		(start 81.575467 116.346213)
@@ -531014,12 +531000,36 @@
 		(uuid "9e9e526e-10a8-4bb2-87c4-e26f294c6331")
 	)
 	(segment
-		(start 79.455467 112.536213)
-		(end 79.075467 112.156213)
-		(width 0.1)
+		(start 79.505467 113.361213)
+		(end 79.305467 113.561213)
+		(width 0.125)
 		(layer "B.Cu")
 		(net "/MEC1723/GPIO036")
-		(uuid "0776793e-a56f-46db-ba28-6fbaacd0220c")
+		(uuid "025682b1-ce9a-4522-a8fc-e925a379ae48")
+	)
+	(segment
+		(start 78.555467 110.792426)
+		(end 79.075467 110.272426)
+		(width 0.125)
+		(layer "B.Cu")
+		(net "/MEC1723/GPIO036")
+		(uuid "1dfc3f07-f515-4603-99c9-7130a80a3c90")
+	)
+	(segment
+		(start 78.555467 113.311213)
+		(end 78.555467 110.792426)
+		(width 0.125)
+		(layer "B.Cu")
+		(net "/MEC1723/GPIO036")
+		(uuid "40fec464-1e46-4436-bd89-54b8b5381942")
+	)
+	(segment
+		(start 78.805467 113.561213)
+		(end 78.555467 113.311213)
+		(width 0.125)
+		(layer "B.Cu")
+		(net "/MEC1723/GPIO036")
+		(uuid "6b38a655-0731-421d-9e30-61d216157321")
 	)
 	(segment
 		(start 79.505467 112.536213)
@@ -531030,12 +531040,20 @@
 		(uuid "7cbe63f9-8840-476e-89ee-40f979ea152f")
 	)
 	(segment
-		(start 79.075467 112.156213)
-		(end 79.075467 111.416213)
-		(width 0.1)
+		(start 79.505467 112.536213)
+		(end 79.505467 113.361213)
+		(width 0.125)
 		(layer "B.Cu")
 		(net "/MEC1723/GPIO036")
-		(uuid "9e49af0c-2065-462c-b01d-1a33768fbd34")
+		(uuid "d757649a-f4a1-42d1-a454-050bfdb22399")
+	)
+	(segment
+		(start 79.305467 113.561213)
+		(end 78.805467 113.561213)
+		(width 0.125)
+		(layer "B.Cu")
+		(net "/MEC1723/GPIO036")
+		(uuid "efe29451-24cc-4749-b8f0-0a7e26aa3542")
 	)
 	(segment
 		(start 103.905467 124.986213)
