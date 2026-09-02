@@ -5854,6 +5854,12 @@
 		(uuid "0d41ec3f-cea9-4abe-b7df-07e919f4a138")
 	)
 	(junction
+		(at 90.17 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0de8ac5b-05f7-4687-a80f-c8b9e04dcfde")
+	)
+	(junction
 		(at 133.35 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6516,6 +6522,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 119.38) (xy 90.17 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a1da44-9c81-43ee-a232-f025f9f55db7")
+	)
+	(wire
+		(pts
 			(xy 171.45 85.09) (xy 171.45 71.12)
 		)
 		(stroke
@@ -6836,16 +6852,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 119.38) (xy 90.17 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e2db3f1-9624-4716-8daa-fa4264209672")
-	)
-	(wire
-		(pts
 			(xy 190.5 168.91) (xy 193.04 168.91)
 		)
 		(stroke
@@ -7163,16 +7169,6 @@
 			(type default)
 		)
 		(uuid "75905981-4336-4188-bb0b-3c53ce5f1d7a")
-	)
-	(wire
-		(pts
-			(xy 64.77 119.38) (xy 90.17 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76cdedaf-7a16-42bf-a0ba-d7e664b4c5b8")
 	)
 	(wire
 		(pts
@@ -8206,6 +8202,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 119.38) (xy 64.77 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec291702-d213-4187-827e-dd75c5f4799a")
+	)
+	(wire
+		(pts
 			(xy 162.56 134.62) (xy 162.56 120.65)
 		)
 		(stroke
@@ -8283,6 +8289,16 @@
 			(type default)
 		)
 		(uuid "f7cfb02e-f8bd-42f7-8bb2-7305c679c2e1")
+	)
+	(wire
+		(pts
+			(xy 93.98 119.38) (xy 90.17 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86aa9d1-b8db-4ac7-b2de-182f5e9caabd")
 	)
 	(polyline
 		(pts
@@ -8563,6 +8579,17 @@
 			(justify left bottom)
 		)
 		(uuid "e9d01be6-be19-48e2-8e7e-4004d7981594")
+	)
+	(hierarchical_label "VBUS"
+		(shape output)
+		(at 93.98 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "296e0528-a3f2-4178-8cf4-ef283c3b9804")
 	)
 	(hierarchical_label "EC_UART0{UART}"
 		(shape bidirectional)

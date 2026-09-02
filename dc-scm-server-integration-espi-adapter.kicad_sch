@@ -712,6 +712,16 @@
 		(color 0 0 0 0)
 		(uuid "31ec66b0-5dc8-4f28-9642-fe9e8241ab9c")
 	)
+	(wire
+		(pts
+			(xy 190.5 35.56) (xy 179.07 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14420060-74ec-46e8-9857-839a0b627402")
+	)
 	(bus
 		(pts
 			(xy 137.16 140.97) (xy 137.16 130.81)
@@ -804,7 +814,7 @@
 	)
 	(bus
 		(pts
-			(xy 165.1 116.84) (xy 165.1 140.97)
+			(xy 158.75 116.84) (xy 158.75 140.97)
 		)
 		(stroke
 			(width 0)
@@ -814,13 +824,23 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 116.84) (xy 168.91 140.97)
+			(xy 162.56 116.84) (xy 162.56 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7e9968a9-0763-40cc-8f57-bae90f07818e")
+	)
+	(wire
+		(pts
+			(xy 190.5 149.86) (xy 190.5 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ea7e93-aa33-459e-a028-7a52d3a50f30")
 	)
 	(wire
 		(pts
@@ -851,6 +871,16 @@
 			(type default)
 		)
 		(uuid "991f78c3-a6ec-4554-85ad-6d0305bfe8a6")
+	)
+	(wire
+		(pts
+			(xy 177.8 149.86) (xy 190.5 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d0ca43-de4d-474d-b3c5-728636e4b8fa")
 	)
 	(bus
 		(pts
@@ -904,7 +934,7 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 116.84) (xy 172.72 140.97)
+			(xy 166.37 116.84) (xy 166.37 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2612,6 +2642,16 @@
 				(justify left)
 			)
 		)
+		(pin "VBUS" input
+			(at 179.07 35.56 0)
+			(uuid "f6687c9a-bb09-4e18-af1b-b031981d7f8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "dc-scm-server-integration-espi-adapter"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9"
@@ -2636,7 +2676,7 @@
 		)
 		(uuid "1d8da698-0d26-4a54-ae2a-b123e41282d5")
 		(property "Sheetname" "Connectors"
-			(at 152.146 140.208 0)
+			(at 146.05 139.954 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2658,7 +2698,7 @@
 			)
 		)
 		(pin "EC_JTAG{JTAG}" bidirectional
-			(at 165.1 140.97 90)
+			(at 158.75 140.97 90)
 			(uuid "d1ca4d75-51ca-40a8-a893-0bbb9adee400")
 			(effects
 				(font
@@ -2668,7 +2708,7 @@
 			)
 		)
 		(pin "EC_UART0{UART}" bidirectional
-			(at 168.91 140.97 90)
+			(at 162.56 140.97 90)
 			(uuid "3b297e66-3259-436b-924c-155510f15e71")
 			(effects
 				(font
@@ -2678,8 +2718,18 @@
 			)
 		)
 		(pin "EC_UART1{UART}" bidirectional
-			(at 172.72 140.97 90)
+			(at 166.37 140.97 90)
 			(uuid "38c8046d-58bf-473e-9d35-b1b4f722b867")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" output
+			(at 177.8 149.86 0)
+			(uuid "3ffc3dfc-dd33-4514-bdf8-334dc07d26c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +2914,7 @@
 			)
 		)
 		(pin "EC_JTAG{JTAG}" bidirectional
-			(at 165.1 116.84 270)
+			(at 158.75 116.84 270)
 			(uuid "93b411cc-ee97-45dc-a152-84857d42f477")
 			(effects
 				(font
@@ -2894,7 +2944,7 @@
 			)
 		)
 		(pin "EC_UART0{UART}" bidirectional
-			(at 168.91 116.84 270)
+			(at 162.56 116.84 270)
 			(uuid "13eca191-9caa-4297-a310-4791da6e2973")
 			(effects
 				(font
@@ -2904,7 +2954,7 @@
 			)
 		)
 		(pin "EC_UART1{UART}" bidirectional
-			(at 172.72 116.84 270)
+			(at 166.37 116.84 270)
 			(uuid "b7b59f84-8a76-4d39-bd8d-2aea9a086efc")
 			(effects
 				(font
