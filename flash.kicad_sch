@@ -5,8 +5,8 @@
 	(uuid "80e25da6-0a80-4c50-b090-95e468ed65db")
 	(paper "A4")
 	(title_block
-		(title "eSPI Adapter")
-		(date "2026-08-21")
+		(title "MEC1723 eSPI Debugger")
+		(date "2026-09-02")
 		(rev "1.0.0")
 		(company "Antmicro")
 	)
@@ -3111,7 +3111,7 @@
 			(uuid "25079b6f-fd67-43de-a089-8d505fb94e17")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "#PWR0102")
 					(unit 1)
@@ -3223,7 +3223,7 @@
 			(uuid "6d68cc41-7407-46a7-8625-99cc81cd3a37")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "#PWR0103")
 					(unit 1)
@@ -3336,7 +3336,7 @@
 			(uuid "edcbeda3-ba51-4a9c-93b0-f17644394953")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "#PWR0101")
 					(unit 1)
@@ -3501,7 +3501,7 @@
 			(uuid "1c667b98-aa81-43e1-85a8-343ebf846a38")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "R76")
 					(unit 1)
@@ -3613,7 +3613,7 @@
 			(uuid "16651795-5fc3-4ccb-a66c-5f2801dbe941")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "#PWR0100")
 					(unit 1)
@@ -3791,7 +3791,7 @@
 			(uuid "e27f3513-ff89-4f45-85c1-625006b8af1d")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "R78")
 					(unit 1)
@@ -3972,7 +3972,7 @@
 			(uuid "e4235002-2430-43f8-875a-2850e0a88f41")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "U4")
 					(unit 1)
@@ -4084,7 +4084,7 @@
 			(uuid "94bfa8f6-4100-4109-84fc-c33e89a83344")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "#PWR099")
 					(unit 1)
@@ -4262,7 +4262,7 @@
 			(uuid "1e70bac3-17d0-4a81-b853-6277d2e45fec")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "C29")
 					(unit 1)
@@ -4440,7 +4440,7 @@
 			(uuid "8fb3062b-a74f-4f56-9216-e6011a237c02")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "R82")
 					(unit 1)
@@ -4618,7 +4618,7 @@
 			(uuid "68ec00ff-a0aa-408d-982a-6e52bc138145")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "R81")
 					(unit 1)
@@ -4796,7 +4796,7 @@
 			(uuid "8abf25c2-e32f-495b-bbe1-59b4048b4e07")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "C30")
 					(unit 1)
@@ -4962,7 +4962,7 @@
 			(uuid "8cc62d85-b5d6-4621-b1b0-7e7066610248")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "R75")
 					(unit 1)
@@ -5125,7 +5125,7 @@
 			(uuid "3bf9cf43-1365-4d96-ab9d-3a448aa213a0")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "J13")
 					(unit 1)
@@ -5303,7 +5303,7 @@
 			(uuid "342adb50-be76-446a-8cfa-aeebb3aae01f")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "R83")
 					(unit 1)
@@ -5481,7 +5481,7 @@
 			(uuid "b088008f-cac1-4119-8623-23c1c48de8ec")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "R79")
 					(unit 1)
@@ -5593,7 +5593,7 @@
 			(uuid "ad2d6dc1-1cd1-4cc8-861b-a453d8aa149c")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "#PWR097")
 					(unit 1)
@@ -5705,7 +5705,7 @@
 			(uuid "f35ae0e0-eac8-4727-b452-b2e20879bcc4")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "#PWR0104")
 					(unit 1)
@@ -5817,7 +5817,7 @@
 			(uuid "ea2b76d1-eaf9-4098-bd43-bddd159443bf")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "#PWR098")
 					(unit 1)
@@ -5929,7 +5929,7 @@
 			(uuid "ef4bf012-7caf-41d8-9045-d8a23abad1aa")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "#PWR096")
 					(unit 1)
@@ -6095,7 +6095,7 @@
 			(uuid "4f91c736-0756-40d1-9b0d-3b3ba922404d")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "R74")
 					(unit 1)
@@ -6273,7 +6273,7 @@
 			(uuid "f6bf0d3e-c8e5-42ec-8e29-24678ca064c4")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "R80")
 					(unit 1)
@@ -6439,7 +6439,7 @@
 			(uuid "ba80e2f3-fb92-4a43-831a-b13332067c34")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "R73")
 					(unit 1)
@@ -6604,7 +6604,7 @@
 			(uuid "1bd11a2f-1f96-4911-a3bf-54f606be161f")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "R72")
 					(unit 1)
@@ -6770,7 +6770,7 @@
 			(uuid "a6bfc93d-b362-4d86-a4f0-1e6053d63b3e")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "R84")
 					(unit 1)
@@ -6936,7 +6936,7 @@
 			(uuid "3d29f3dc-89cc-44d5-99bd-bdc22085fc7b")
 		)
 		(instances
-			(project "dc-scm-server-integration-espi-adapter"
+			(project "mec1723-espi-debugger"
 				(path "/df391740-647e-4ab6-9dcd-d61184d66fe9/870b0b62-f962-4a87-8d30-5a8522c5db60"
 					(reference "R77")
 					(unit 1)
